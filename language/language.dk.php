@@ -23,13 +23,12 @@
     $lang['page_menu_5'] = "Kort";
     $lang['page_menu_6'] = "Ceremonien";
     $lang['page_menu_7'] = "Festen";
-    $lang['page_menu_8'] = "Link button";
+    $lang['page_menu_8'] = "Interesse punkter";
     $lang['page_menu_9'] = "Kalender";
     $lang['page_menu_10'] = "Send svar";
     $lang['page_menu_11'] = "Den første invitation";
-    $lang['page_menu_12'] = "Interesse punkter";
 
-    $lang['page_2_calender_1'] = "Link to Doodle kalender";
+    $lang['page_2_calender_1'] = "Link til Doodle kalender";
     $lang['page_2_map_1'] = "Link til Google kort";
 
     $lang[''] = "";

@@ -37,7 +37,7 @@
 							</tr>
 							<tr>
 								<td><a href="../desktop/page_2_transportation.php" data-mini="true" data-theme="d" data-role="button"><?php echo $lang['page_menu_4']; ?></a></td>
-								<td><a href="../desktop/page_2_poi.php" data-mini="true" data-theme="d" data-role="button"><?php echo $lang['page_menu_12']; ?></a></td>
+								<td><a href="../desktop/page_2_poi.php" data-mini="true" data-theme="d" data-role="button"><?php echo $lang['page_menu_8']; ?></a></td>
 							</tr>
 							<tr>
 								<td><a href="../desktop/page_2_calender.php" data-mini="true" data-theme="d" data-role="button"><?php echo $lang['page_menu_9']; ?></a></td>

@@ -13,5 +13,5 @@
 
     header('HTTP/1.1 307 Temporary Redirect');
     // header('Location: ../' . $_GET['look'] . '/page_1.php?reload=true');
-    header('Location: ../' . $_GET['look'] . '/page_menu.php?reload=true');
+    header('Location: ../' . $_GET['look'] . '/page_menu.php');
 ?>

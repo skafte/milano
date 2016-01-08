@@ -113,3 +113,9 @@
     left: 40px;
     text-shadow: none;
 }
+
+.custom-theme-a {
+    border: red;
+    background-color: #0071bc;
+    color: red;
+}

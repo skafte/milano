@@ -9,12 +9,11 @@
 		<script type="text/javascript" src="../libs/jquery/jquery.mobile-1.4.5.min.js"></script>
         <script type="text/javascript" src="../libs/jqueryui/jquery-ui.js"></script>
 	</head>
-	<body>
+	<body onload="changeTitle()">
 		<div data-role="header" style="z-index:5;" >
-		    <a class="ui-btn-left ui-btn ui-btn-inline ui-mini ui-corner-all ui-btn-icon-left ui-icon-bars" onclick="reselectLanguage()"><?php echo $lang['page_1_8']; ?></a>
-		    <a class="ui-btn-left ui-btn ui-btn-inline ui-mini ui-corner-all ui-btn-icon-left ui-icon-bars" onclick="reselectLanguage()"><?php echo $lang['page_menu_0']; ?></a>
+		    <a class="ui-btn ui-btn-inline ui-mini ui-corner-all ui-btn-icon-left ui-icon-back" onclick="backToMenu()"><?php echo $lang['page_menu_0']; ?></a>
 			<h1><?php echo $lang['page_menu_1'] . " " . $invitee . ", " . $lang['page_menu_5']; ?></h1>
-			<a href="#popupBasic" data-rel="popup" class="ui-btn-right ui-btn ui-btn-b ui-btn-inline ui-mini ui-corner-all ui-btn-icon-right ui-icon-info" data-transition="pop"><?php echo $lang['page_1_7']; ?></a>
+			<a href="#popupBasic" data-rel="popup" class="ui-btn ui-btn-b ui-btn-inline ui-mini ui-corner-all ui-btn-icon-right ui-icon-info" data-transition="pop"><?php echo $lang['page_1_7']; ?></a>
 		</div>
 		<div data-role="popup" id="popupBasic" >
 			<p><?php echo $lang['page_1_10']; ?></p>

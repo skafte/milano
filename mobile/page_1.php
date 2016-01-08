@@ -6,6 +6,7 @@
 		<link rel="stylesheet" href="../common_files/mobile.css">
         <script type="text/javascript" src="../libs/jquery/jquery-2.1.4.min.js"></script>
 		<?php include("drag_drop.js.php"); ?>
+		<?php include("scripts.js.php"); ?>
 		<script type="text/javascript" src="../libs/jquery/jquery.mobile-1.4.5.min.js"></script>
         <script type="text/javascript" src="../libs/jqueryui/jquery-ui.js"></script>
 	</head>

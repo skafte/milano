@@ -20,7 +20,7 @@
     max-width: 100%;
     margin-top: 20%;
 }
-#droppableLeft {
+#droppableLeft, #droppableLeftOld {
     width: 25%;
     height: 100%;
     position: absolute;
@@ -29,7 +29,7 @@
     background: linear-gradient(to right, rgba(170, 170, 170, 1), rgba(228, 228, 228, 1), rgba(255,0,0,0));
     z-index: 1;
 }
-#droppableRight {
+#droppableRight, #droppableRightOld {
     width: 25%;
     height: 100%;
     position: absolute;

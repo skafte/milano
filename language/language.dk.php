@@ -14,5 +14,23 @@
     $lang['page_1_9'] = "Invitation til";
     $lang['page_1_10'] = "Siden virker ved at træk og slip tekst-rammen<br />i midten til højre eller venstre alt efter om<br />man kan lide budskabet eller ej.";
 
+    $lang['page_menu_0'] = "Tilbage";
+    $lang['page_menu_1'] = "Velkommen";
+    $lang['page_menu_2'] = "Informantion menu";
+    $lang['page_menu_3'] = "Hoteler";
+    $lang['page_menu_4'] = "Transport";
+    $lang['page_menu_5'] = "Kort";
+    $lang['page_menu_6'] = "Ceremonien";
+    $lang['page_menu_7'] = "Festen";
+    $lang['page_menu_8'] = "Link button";
+    $lang['page_menu_9'] = "Kalender";
+    $lang['page_menu_10'] = "Send svar";
+    $lang['page_menu_11'] = "Den første invitation";
+    $lang['page_menu_12'] = "Interesse punkter";
+
+    $lang['page_2_calender_1'] = "Link to Doole kalender";
+    $lang['page_2_map'] = "Link til Google kort";
+
+
     $lang[''] = "";
 ?>

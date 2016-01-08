@@ -66,6 +66,33 @@
                         $(ui.draggable).next().removeClass('rotate-left rotate-right').fadeIn(400);
                 }
             });
+
+            $( "#droppableLeftOld" ).droppable({
+                drop: function( event, ui ) {
+                    writeToLog("Like", $(ui.draggable).context.children[0].children[0].innerHTML);
+
+                    $(ui.draggable).addClass('rotate-right').delay(700).fadeOut(1);
+                    $('.buddy').find('.status').remove();
+
+                    if ($(ui.draggable).is(':last-child'))
+                        window.reload();
+                    else
+                        $(ui.draggable).next().removeClass('rotate-left rotate-right').fadeIn(400);
+                }
+            });
+            $( "#droppableRightOld" ).droppable({
+                drop: function( event, ui ) {
+                    writeToLog("Dislike", $(ui.draggable).context.children[0].children[0].innerHTML);
+
+                    $(ui.draggable).addClass('rotate-left').delay(700).fadeOut(1);
+                    $('.buddy').find('.status').remove();
+
+                    if ($(ui.draggable).is(':last-child'))
+                        window.reload();
+                    else
+                        $(ui.draggable).next().removeClass('rotate-left rotate-right').fadeIn(400);
+                }
+            });
         }
         else
             $("#container").append("<div class='buddy' style='display: block;'><span class='infoText'><?php echo $lang['page_1_6']; ?></span></div>").fadeIn(400);
@@ -102,9 +129,5 @@
             MyIFrameDoc.forms[0].submit();
             req.send("msg=false");
         }
-    }
-
-    function reselectLanguage() {
-        window.open("select_language.php?look=desktop&lang=doNew", "_self");
     }
 </script>

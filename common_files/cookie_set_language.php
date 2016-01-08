@@ -12,5 +12,6 @@
 	setcookie('lang', $lang_file, time() + (3600 * 24 * 300), $inviteRoot);
 
     header('HTTP/1.1 307 Temporary Redirect');
-    header('Location: ../' . $_GET['look'] . '/page_1.php?reload=true');
+    // header('Location: ../' . $_GET['look'] . '/page_1.php?reload=true');
+    header('Location: ../' . $_GET['look'] . '/page_menu.php?reload=true');
 ?>

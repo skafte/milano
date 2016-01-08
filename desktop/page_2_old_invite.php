@@ -13,14 +13,15 @@
 	<body>
 		<div data-role="header" style="z-index:5;" >
 		    <a class="ui-btn-left ui-btn ui-btn-inline ui-mini ui-corner-all ui-btn-icon-left ui-icon-bars" onclick="reselectLanguage()"><?php echo $lang['page_1_8']; ?></a>
-			<h1><?php echo $lang['page_1_9'] . " " . $invitee; ?></h1>
+		    <a class="ui-btn-left ui-btn ui-btn-inline ui-mini ui-corner-all ui-btn-icon-left ui-icon-bars" onclick="reselectLanguage()"><?php echo $lang['page_menu_0']; ?></a>
+			<h1><?php echo $lang['page_menu_1'] . " " . $invitee . ", " . $lang['page_menu_11']; ?></h1>
 			<a href="#popupBasic" data-rel="popup" class="ui-btn-right ui-btn ui-btn-b ui-btn-inline ui-mini ui-corner-all ui-btn-icon-right ui-icon-info" data-transition="pop"><?php echo $lang['page_1_7']; ?></a>
 		</div>
 		<div data-role="popup" id="popupBasic" >
 			<p><?php echo $lang['page_1_10']; ?></p>
 		</div>
-		<div id="droppableLeft" class="desition">
-		  	<p><img src="../pics/icon_like.png" class="icon" onload="<?php if (isset($_GET['reload'])) echo "window.open('../desktop/page_1.php', '_self');"; ?>"></p>
+		<div id="droppableLeftOld" class="desition">
+		  	<p><img src="../pics/icon_like.png" class="icon" onload="<?php if (isset($_GET['reload'])) echo "window.open('../desktop/page_2_old_invite.php', '_self');"; ?>"></p>
 		</div>
 		<div id="container">
 	    	<div class="buddy" style="display: block;">
@@ -49,9 +50,8 @@
     			</div>
 	    	</div>
 	  	</div>
-	  	<div id="droppableRight" class="ui-widget-header">
+	  	<div id="droppableRightOld" class="ui-widget-header">
 		  	<p><img src="../pics/icon_dislike.png" class="icon"></p>
 		</div>
-		<iframe style="display:none;" id="formFrame" src="../common_files/form_mail.php"></iframe>
 	</body>
 </html>

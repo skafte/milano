@@ -1,5 +1,7 @@
 <?php
     include("../common_files/header.php");
+    include("../common_files/root.php");
+    setcookie('msg', "Nothing to send anymore", time() + (3600 * 24 * 300), $inviteRoot);
 ?>
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<link rel="stylesheet" href="../libs/jquery/jquery.mobile-1.4.5.min.css">
@@ -22,17 +24,17 @@
 	    	<div class="buddy" style="display: block;">
 	    		<div class="avatar" >
 	    			<span class="infoText">
-	    						<a href="page_2_hotels.php" data-role="button"><?php echo $lang['page_menu_3']; ?></a>
-	    						<a href="page_2_transportation.php" data-role="button"><?php echo $lang['page_menu_4']; ?></a>
-	    						<a href="page_2_map.php" data-role="button"><?php echo $lang['page_menu_5']; ?></a>
-	    						<a href="page_2_poi.php" data-role="button"><?php echo $lang['page_menu_12']; ?></a>
+						<a href="page_2_hotels.php" data-role="button"><?php echo $lang['page_menu_3']; ?></a>
+						<a href="page_2_transportation.php" data-role="button"><?php echo $lang['page_menu_4']; ?></a>
+						<a href="page_2_map.php" data-role="button"><?php echo $lang['page_menu_5']; ?></a>
+						<a href="page_2_poi.php" data-role="button"><?php echo $lang['page_menu_12']; ?></a>
 
-	    						<a href="page_2_ceremony.php" data-role="button"><?php echo $lang['page_menu_6']; ?></a>
-	    						<a href="page_2_party.php" data-role="button"><?php echo $lang['page_menu_7']; ?></a>
+						<a href="page_2_ceremony.php" data-role="button"><?php echo $lang['page_menu_6']; ?></a>
+						<a href="page_2_party.php" data-role="button"><?php echo $lang['page_menu_7']; ?></a>
 
-	    						<a href="page_2_calender.php" data-role="button"><?php echo $lang['page_menu_9']; ?></a>
-	    						<a href="page_2_answer.php" data-role="button"><?php echo $lang['page_menu_10']; ?></a>
-	    						<a href="page_2_old_invite.php" data-role="button"><?php echo $lang['page_menu_11']; ?></a>
+						<a href="page_2_calender.php" data-role="button"><?php echo $lang['page_menu_9']; ?></a>
+						<a href="page_2_answer.php" data-role="button"><?php echo $lang['page_menu_10']; ?></a>
+						<a href="page_2_old_invite.php" data-role="button" target="_self"><?php echo $lang['page_menu_11']; ?></a>
 	    			</span>
     			</div>
 	    	</div>

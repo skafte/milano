@@ -49,6 +49,11 @@
 	    			<span class="infoText"><?php echo $lang['page_1_5']; ?></span>
     			</div>
 	    	</div>
+	    	<div class="buddy">
+	    		<div class="avatar" >
+	    			<span class='infoText'><?php echo $lang['page_1_6']; ?></span>
+    			</div>
+    		</div>
 	  	</div>
 	  	<div id="droppableRightOld" class="ui-widget-header">
 		  	<p><img src="../pics/icon_dislike.png" class="icon"></p>

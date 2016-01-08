@@ -69,26 +69,22 @@
 
             $( "#droppableLeftOld" ).droppable({
                 drop: function( event, ui ) {
-                    writeToLog("Like", $(ui.draggable).context.children[0].children[0].innerHTML);
-
                     $(ui.draggable).addClass('rotate-right').delay(700).fadeOut(1);
                     $('.buddy').find('.status').remove();
 
                     if ($(ui.draggable).is(':last-child'))
-                        window.reload();
+                        location.reload();
                     else
                         $(ui.draggable).next().removeClass('rotate-left rotate-right').fadeIn(400);
                 }
             });
             $( "#droppableRightOld" ).droppable({
                 drop: function( event, ui ) {
-                    writeToLog("Dislike", $(ui.draggable).context.children[0].children[0].innerHTML);
-
                     $(ui.draggable).addClass('rotate-left').delay(700).fadeOut(1);
                     $('.buddy').find('.status').remove();
 
                     if ($(ui.draggable).is(':last-child'))
-                        window.reload();
+                        location.reload();
                     else
                         $(ui.draggable).next().removeClass('rotate-left rotate-right').fadeIn(400);
                 }

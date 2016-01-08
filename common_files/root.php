@@ -1,0 +1,4 @@
+<?php
+    // $inviteRoot = "/tinderSwipe/";
+    $inviteRoot = "/";
+?>

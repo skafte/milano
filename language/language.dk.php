@@ -27,6 +27,7 @@
     $lang['page_menu_9'] = "Kalender";
     $lang['page_menu_10'] = "Send svar";
     $lang['page_menu_11'] = "Den første invitation";
+    $lang['page_menu_12'] = "Ønskeliste";
 
     $lang['page_2_calender_1'] = "Link til Doodle kalender";
     $lang['page_2_map_1'] = "Link til Google kort";

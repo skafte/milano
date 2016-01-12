@@ -22,7 +22,7 @@
 	    	<div class="buddy" style="display: block;">
 	    		<div class="avatar" >
 	    			<span class="infoText">
-	    				<a href="https://www.google.com/maps/d/edit?mid=z-HduLyX9TzQ.kl9-n7R8uP88&amp;usp=sharing" target='_blank'><?php echo $lang['page_2_map_1']; ?></a>
+	    				<?php echo $lang['page_2_map_1']; ?> <a href="https://www.google.com/maps/d/edit?mid=z-HduLyX9TzQ.kl9-n7R8uP88&amp;usp=sharing" target='_blank'><?php echo $lang['page_2_map_2']; ?></a>, <?php echo $lang['page_2_map_3']; ?>
 	    			</span>
     			</div>
 	    	</div>

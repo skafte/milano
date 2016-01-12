@@ -44,6 +44,7 @@
 							</tr>
 							<tr>
 								<td><a href="../desktop/page_2_old_invite.php" data-mini="true" data-theme="d" data-role="button" target="_self"><?php echo $lang['page_menu_11']; ?></a></td>
+								<td><a href="../desktop/page_2_wishlist.php" data-mini="true" data-theme="d" data-role="button"><?php echo $lang['page_menu_12']; ?></a></td>
 							</tr>
 						</table>
 	    				<div data-role="controlgroup" data-theme="e">

@@ -22,7 +22,11 @@
 	    	<div class="buddy" style="display: block;">
 	    		<div class="avatar" >
 	    			<span class="infoText">
-	    				<a href="https://www.google.com/maps/d/edit?mid=z-HduLyX9TzQ.kl9-n7R8uP88&amp;usp=sharing" target='_blank'>Link to Google kort</a>
+	    				<?php echo $lang['page_2_party_1']; ?><br />
+	    				<?php echo $lang['page_2_party_2']; ?><br />
+	    				<?php echo $lang['page_2_party_3']; ?><br />
+	    				<br />
+	    				<?php echo $lang['page_2_party_4']; ?>
 	    			</span>
     			</div>
 	    	</div>

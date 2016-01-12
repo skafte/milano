@@ -12,7 +12,7 @@
 	<body onload="changeTitle()">
 		<div data-role="header" style="z-index:5;" >
 		    <a class="ui-btn ui-btn-inline ui-mini ui-corner-all ui-btn-icon-left ui-icon-back" onclick="backToMenu()"><?php echo $lang['page_menu_0']; ?></a>
-			<h1><?php echo $lang['page_menu_1'] . " " . $invitee . ", " . $lang['page_menu_9']; ?></h1>
+			<h1><?php echo $lang['page_menu_1'] . " " . $invitee . ", " . $lang['page_menu_10']; ?></h1>
 			<a href="#popupBasic" data-rel="popup" class="ui-btn ui-btn-b ui-btn-inline ui-mini ui-corner-all ui-btn-icon-right ui-icon-info" data-transition="pop"><?php echo $lang['page_1_7']; ?></a>
 		</div>
 		<div data-role="popup" id="popupBasic" >
@@ -22,9 +22,14 @@
 	    	<div class="buddy" style="display: block;">
 	    		<div class="avatar" >
 	    			<span class="infoText">
-	    				<?php echo $lang['page_2_calender_1']; ?><br />
-	    				<?php echo $lang['page_2_calender_2']; ?><br />
-	    				<?php echo $lang['page_2_calender_3']; ?> <a href="http://doodle.com/poll/sq6rkben4f8f53t8" target='_blank'><?php echo $lang['page_2_calender_4']; ?></a> <?php echo $lang['page_2_calender_5']; ?>
+	    				<?php echo $lang['page_2_wishlist_1']; ?><br />
+	    				<ul>
+	    					<?php
+	    						$i = 1;
+	    						while (array_key_exists("page_2_wishlist_list_" . $i, $lang))
+	    							echo "<li>" . $lang["page_2_wishlist_list_" . $i++] . "</li>";
+	    					?>
+    					</ul>
 	    			</span>
     			</div>
 	    	</div>

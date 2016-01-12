@@ -22,7 +22,11 @@
 	    	<div class="buddy" style="display: block;">
 	    		<div class="avatar" >
 	    			<span class="infoText">
-	    				<a href="https://www.google.com/maps/d/edit?mid=z-HduLyX9TzQ.kl9-n7R8uP88&amp;usp=sharing" target='_blank'>Link to Google kort</a>
+	    				<?php echo $lang['page_2_hotels_1']; ?><br />
+	    				<?php echo $lang['page_2_hotels_2']; ?> <a href="http://www.booking.com" target="_blank">Booking.com</a>, <a href="http://www.hotels.com" target="_blank">Hotels.com</a>, <?php echo $lang['page_2_hotels_3']; ?> <a href="http://www.airbnb.com" target="_blank">airbnb</a> <?php echo $lang['page_2_hotels_4']; ?><br />
+	    				<?php echo $lang['page_2_hotels_5']; ?><br />
+	    				<?php echo $lang['page_2_hotels_6']; ?><br />
+	    				<?php echo $lang['page_2_hotels_7']; ?>
 	    			</span>
     			</div>
 	    	</div>

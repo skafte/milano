@@ -73,6 +73,7 @@
     transform: translateX(-50%) translateY(-50%);
     color: black;
     font-family: Georgia;
+    width: 300px;
 }
 .flag {
     width: 25%;

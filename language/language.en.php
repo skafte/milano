@@ -90,8 +90,8 @@
     $lang['page_2_tradtions_3'] = "Rice!";
     $lang['page_2_tradtions_4'] = "Because the ceremony is close to Duomo there is a big risk of a remake of The Birds by Alfred Hitchcock starring the cathedrals doves. Even though remakes is the new black in Hollywood, which one can think is good or bad. We think that it would be best if we leave it to the professionels ;) so no rise please.";
 
-    $lang['page_2_wishlist_1'] = "All we want for our wedding is to see your all celebrating with us.";
-    $lang['page_2_wishlist_2'] = "Some have threatened to give us a hundred pairs of socks as a wedding present if we have no wishes outself, and although socks are nice a hundred pairs is a bit too many, so below are some wishes:";
+    $lang['page_2_wishlist_1'] = "All we want for our wedding is to see you all celebrating with us.";
+    $lang['page_2_wishlist_2'] = "Some have threatened to give us a hundred pairs of socks as a wedding present if we have no wishes ourselves, and although socks are nice a hundred pairs is a bit too many, so below are some wishes:";
     $lang['page_2_wishlist_list_1'] = "A new washing machine (or a contribution to one).";
     $lang['page_2_wishlist_list_2'] = "Contribution to a trip to New Zealand.";
     $lang['page_2_wishlist_list_3'] = "Bjørn Teddy doughmachine";
@@ -99,18 +99,18 @@
     $lang['page_2_wishlist_list_5'] = "Icecreame maker machine";
     $lang['page_2_wishlist_list_6'] = "Juicer";
 
-    $lang['page_2_answer_'] = "We look forward to seeing you in Milan Saturday the 14th of May, 2016!";
-    $lang['page_2_answer_'] = "Please confirm your presence with the follwing:";
-    $lang['page_2_answer_'] = "Name(s)";
-    $lang['page_2_answer_'] = "How many will you be coming";
-    $lang['page_2_answer_'] = "For the ceremony (at 13.30, at Palazzo Reale)";
-    $lang['page_2_answer_'] = "For the party (at 18 o'clock, at Mulino dell'Offellera, Agrate Brianza)";
-    $lang['page_2_answer_'] = "Additional (food allergies etc.), please let us know so we can make the fest day for you.";
-    $lang['page_2_answer_'] = "Send answer";
-    $lang['page_2_answer_'] = "Looking forward to attending";
-    $lang['page_2_answer_'] = "Unfortunately cannot attent.";
-    $lang['page_2_answer_'] = "See you in Milan :D";
-    $lang['page_2_answer_'] = "We are sorry you won't be part of our celebration :(";
+    $lang['page_2_answer_1'] = "We look forward to seeing you in Milan Saturday the 14th of May, 2016!";
+    $lang['page_2_answer_2'] = "Please confirm your presence with the follwing:";
+    $lang['page_2_answer_3'] = "Name(s)";
+    $lang['page_2_answer_4'] = "How many will you be coming";
+    $lang['page_2_answer_5'] = "For the ceremony (at 13.30, at Palazzo Reale)";
+    $lang['page_2_answer_6'] = "For the party (at 18 o'clock, at Mulino dell'Offellera, Agrate Brianza)";
+    $lang['page_2_answer_7'] = "Additional (food allergies etc.), please let us know so we can make the best day for you.";
+    $lang['page_2_answer_8'] = "Send answer";
+    $lang['page_2_answer_9'] = "Looking forward to attending";
+    $lang['page_2_answer_10'] = "Unfortunately cannot attent.";
+    $lang['page_2_answer_11'] = "See you in Milan :D";
+    $lang['page_2_answer_12'] = "We are sorry you won't be part of our celebration :(";
 
     $lang[''] = "";
 ?>

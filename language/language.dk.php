@@ -99,18 +99,18 @@
     $lang['page_2_wishlist_list_5'] = "Ismaskine";
     $lang['page_2_wishlist_list_6'] = "Saftpresser";
 
-    $lang['page_2_answer_'] = "We look forward to seeing you in Milan Saturday the 14th of May, 2016!";
-    $lang['page_2_answer_'] = "Please confirm your presence with the follwing:";
-    $lang['page_2_answer_'] = "Name(s)";
-    $lang['page_2_answer_'] = "How many will you be coming";
-    $lang['page_2_answer_'] = "For the ceremony (at 13.30, at Palazzo Reale)";
-    $lang['page_2_answer_'] = "For the party (at 18 o'clock, at Mulino dell'Offellera, Agrate Brianza)";
-    $lang['page_2_answer_'] = "Additional (food allergies etc.), please let us know so we can make the fest day for you.";
-    $lang['page_2_answer_'] = "Send answer";
-    $lang['page_2_answer_'] = "Looking forward to attending";
-    $lang['page_2_answer_'] = "Unfortunately cannot attent.";
-    $lang['page_2_answer_'] = "See you in Milan :D";
-    $lang['page_2_answer_'] = "We are sorry you won't be part of our celebration :(";
+    $lang['page_2_answer_1'] = "Vi ser frem til at se dig/jer i Milano lørdag den 14. maj, 2016!";
+    $lang['page_2_answer_2'] = "Så send os venligst dit svar med følgende information:";
+    $lang['page_2_answer_3'] = "Navn(e)";
+    $lang['page_2_answer_4'] = "Hvor mange kommer du/I";
+    $lang['page_2_answer_5'] = "Til ceremonien (kl 13.30, ved Palazzo Reale)";
+    $lang['page_2_answer_6'] = "Til festen (klokken 18, ved Mulino dell'Offellera, Agrate Brianza)";
+    $lang['page_2_answer_7'] = "Bemærkninger (mad allergier mm.), lad os det vide så kan lave den bedste dag for dig.";
+    $lang['page_2_answer_8'] = "Send svar";
+    $lang['page_2_answer_9'] = "Ser frem til at deltage.";
+    $lang['page_2_answer_10'] = "Kan desværre ikke deltage.";
+    $lang['page_2_answer_11'] = "Vi ses i Milano :D";
+    $lang['page_2_answer_12'] = "Vi er kede af at du ikke kan fejre dagen sammen med os :(";
 
     $lang[''] = "";
 ?>

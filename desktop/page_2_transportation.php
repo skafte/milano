@@ -5,6 +5,7 @@
 		<link rel="stylesheet" href="../libs/jquery/jquery.mobile-1.4.5.min.css">
 		<link rel="stylesheet" href="../common_files/desktop.css">
         <script type="text/javascript" src="../libs/jquery/jquery-2.1.4.min.js"></script>
+		<?php include("drag_drop.js.php"); ?>
 		<?php include("scripts.js.php"); ?>
 		<script type="text/javascript" src="../libs/jquery/jquery.mobile-1.4.5.min.js"></script>
         <script type="text/javascript" src="../libs/jqueryui/jquery-ui.js"></script>
@@ -22,10 +23,50 @@
 	    	<div class="buddy" style="display: block;">
 	    		<div class="avatar" >
 	    			<span class="infoText">
-	    				<a href="https://www.google.com/maps/d/edit?mid=z-HduLyX9TzQ.kl9-n7R8uP88&amp;usp=sharing" target='_blank'>Link to Google kort</a>
+	    				<b><?php echo $lang['page_2_transport_1']; ?></b><br />
+	    				<?php echo $lang['page_2_transport_2']; ?><br />
+	    				<br />
+	    				<ul>
+		    				<li>
+		    					<?php echo $lang['page_2_transport_3']; ?><br />
+		    					<?php echo $lang['page_2_transport_4']; ?>
+	    					</li>
+	    					<li>
+			    				<?php echo $lang['page_2_transport_5']; ?><br />
+			    				<?php echo $lang['page_2_transport_6']; ?><br />
+			    				<?php echo $lang['page_2_transport_7']; ?>
+		    				</li>
+	    				</ul>
+	    			</span>
+    			</div>
+	    	</div>
+	    	<div class="buddy" style="display: block;">
+	    		<div class="avatar" >
+	    			<span class="infoText">
+	    				<b><?php echo $lang['page_2_transport_1']; ?></b><br />
+	    				<?php echo $lang['page_2_transport_2']; ?><br />
+	    				<br />
+	    				<ul>
+		    				<li>
+		    					<?php echo $lang['page_2_transport_8']; ?><br />
+		    					<?php echo $lang['page_2_transport_9']; ?>
+	    					</li>
+	    				</ul>
+	    			</span>
+    			</div>
+	    	</div>
+	    	<div class="buddy" style="display: block;">
+	    		<div class="avatar" >
+	    			<span class="infoText">
+	    				<b><?php echo $lang['page_2_transport_10']; ?></b><br />
+	    				<?php echo $lang['page_2_transport_11']; ?><br />
+	    				<?php echo $lang['page_2_transport_12']; ?>
 	    			</span>
     			</div>
 	    	</div>
 	  	</div>
+	  	<div id="droppableRightOld" class="ui-widget-header">
+		  	<p><img src="../pics/fast_forward.png" class="icon"></p>
+		</div>
 	</body>
 </html>

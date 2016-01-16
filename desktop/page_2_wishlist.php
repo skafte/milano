@@ -23,6 +23,7 @@
 	    		<div class="avatar" >
 	    			<span class="infoText">
 	    				<?php echo $lang['page_2_wishlist_1']; ?><br />
+	    				<?php echo $lang['page_2_wishlist_2']; ?>
 	    				<ul>
 	    					<?php
 	    						$i = 1;

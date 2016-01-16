@@ -64,7 +64,7 @@
     $lang['page_2_transport_11'] = "Once in Milan, you can buy a day ticket valid for metro, tram and bus.";
     $lang['page_2_transport_12'] = "We will arrange transport to the restaurant of the Party (info will be added at a later stage).";
 
-    $lang['page_2_poi_1'] = "If you are spending some days in Milan, we recommend you to visit";
+    $lang['page_2_poi_1'] = "If you are spending some days in Milan, we recommend you to visit.";
     $lang['page_2_poi_2'] = "Points of interest";
     $lang['page_2_poi_3'] = "For eating";
     $lang['page_2_poi_list_a1'] = "Duomo, inside the cathedral and on the roof top.";
@@ -87,10 +87,17 @@
 
     $lang['page_2_tradtions_1'] = "We hope for a great mix or Danish and Italian traditions (Bulgarian, English, Peruvian and  Polish are also welcome).";
     $lang['page_2_tradtions_2'] = "And because of this great gathering of traditions a certaion amount of confusion may happen when a seance is about to start. So we would encurage, with a smile, that the first time a seance is about to start you stand up and explain what is about to happen and where the tradition originates from / why it is done.";
-    $lang['page_2_tradtions_3'] = "Rice! because the ceremony is close to Duomo there is a big risk of a remake of The Birds by Alfred Hitchcock starring the cathedrals doves. Even though remakes is the new black in Hollywood, which one can think is good or bad. We think that it would be best if we leave it to the professionels ;) so no rise please.";
+    $lang['page_2_tradtions_3'] = "Rice!";
+    $lang['page_2_tradtions_4'] = "Because the ceremony is close to Duomo there is a big risk of a remake of The Birds by Alfred Hitchcock starring the cathedrals doves. Even though remakes is the new black in Hollywood, which one can think is good or bad. We think that it would be best if we leave it to the professionels ;) so no rise please.";
 
-    $lang['page_2_wishlist_1'] = "";
+    $lang['page_2_wishlist_1'] = "All we want for our wedding is to see your all celebrating with us.";
+    $lang['page_2_wishlist_2'] = "Some have threatened to give us a hundred pairs of socks as a wedding present if we have no wishes outself, and although socks are nice a hundred pairs is a bit too many, so below are some wishes:";
     $lang['page_2_wishlist_list_1'] = "A new washing machine (or a contribution to one).";
+    $lang['page_2_wishlist_list_2'] = "Contribution to a trip to New Zealand.";
+    $lang['page_2_wishlist_list_3'] = "Bjørn Teddy doughmachine";
+    $lang['page_2_wishlist_list_4'] = "Blender (that can handle icecubes and warm fluids)";
+    $lang['page_2_wishlist_list_5'] = "Icecreame maker machine";
+    $lang['page_2_wishlist_list_6'] = "Juicer";
 
     $lang['page_2_answer_'] = "We look forward to seeing you in Milan Saturday the 14th of May, 2016!";
     $lang['page_2_answer_'] = "Please confirm your presence with the follwing:";

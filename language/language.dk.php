@@ -87,10 +87,30 @@
 
     $lang['page_2_tradtions_1'] = "Vi håber på et festligt miks at både danske og italienske traditioner (engelske, polske, peruvianske og bulgarske er også velkommene).";
     $lang['page_2_tradtions_2'] = "Og med sådan et vælg af traditioner så kan der måske opstå en vis forvirring om hvad der skal ske ved en given seance. Så derfor vil vi, med et smil, opfordre til at første gang man starter en seance så rejser man sig op og forklare hvad der skal til at ske og hvor traditionen stammer fra / hvorfor den bliver gjort.";
-    $lang['page_2_tradtions_3'] = "Ris! fordi ceremonien bliver holdt tæt ved Duomo så er der stor risiko for et remake af Alfred Hitchcocks Fuglene med katedralens duer. Og selv om remakes er det nye sort i Hollywood, og det kan man mene både godt og skidt om. Så er det nok bedst hvis vi overlader den slags til professionelle ;) så ingen ris tak.";
+    $lang['page_2_tradtions_3'] = "Ris!";
+    $lang['page_2_tradtions_4'] = "Fordi ceremonien bliver holdt tæt ved Duomo så er der stor risiko for et remake af Alfred Hitchcocks Fuglene med katedralens duer. Og selv om remakes er det nye sort i Hollywood, og det kan man mene både godt og skidt om. Så er det nok bedst hvis vi overlader den slags til professionelle ;) så ingen ris tak.";
 
-    $lang['page_2_wishlist_1'] = "";
+    $lang['page_2_wishlist_1'] = "Alt vi ønsker til vores bryllup er at se jer alle fejre det med os.";
+    $lang['page_2_wishlist_2'] = "Med nogen har truet med at give os hundred par sokker hvis vi ikke ønsker os noget andet, og selv om sokker er dejlige så er hundred par lige i overkanten, så herunder finder I nogle af vores ønsker.";
     $lang['page_2_wishlist_list_1'] = "En vaskemaskine (eller et bidrag til én).";
+    $lang['page_2_wishlist_list_2'] = "Bidrag til en rejse til New Zealand.";
+    $lang['page_2_wishlist_list_3'] = "Bjørn Teddy røremaskine";
+    $lang['page_2_wishlist_list_4'] = "Blender (skal kunne holder til isterninger og varm væske)";
+    $lang['page_2_wishlist_list_5'] = "Ismaskine";
+    $lang['page_2_wishlist_list_6'] = "Saftpresser";
+
+    $lang['page_2_answer_'] = "We look forward to seeing you in Milan Saturday the 14th of May, 2016!";
+    $lang['page_2_answer_'] = "Please confirm your presence with the follwing:";
+    $lang['page_2_answer_'] = "Name(s)";
+    $lang['page_2_answer_'] = "How many will you be coming";
+    $lang['page_2_answer_'] = "For the ceremony (at 13.30, at Palazzo Reale)";
+    $lang['page_2_answer_'] = "For the party (at 18 o'clock, at Mulino dell'Offellera, Agrate Brianza)";
+    $lang['page_2_answer_'] = "Additional (food allergies etc.), please let us know so we can make the fest day for you.";
+    $lang['page_2_answer_'] = "Send answer";
+    $lang['page_2_answer_'] = "Looking forward to attending";
+    $lang['page_2_answer_'] = "Unfortunately cannot attent.";
+    $lang['page_2_answer_'] = "See you in Milan :D";
+    $lang['page_2_answer_'] = "We are sorry you won't be part of our celebration :(";
 
     $lang[''] = "";
 ?>

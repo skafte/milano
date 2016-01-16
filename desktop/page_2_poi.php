@@ -24,7 +24,7 @@
 	    		<div class="avatar" >
 	    			<span class="infoText">
 	    				<?php echo $lang['page_2_poi_1']; ?><br />
-	    				<?php echo $lang['page_2_poi_2']; ?><br />
+	    				<b><?php echo $lang['page_2_poi_2']; ?></b><br />
 	    				<ul>
 	    					<?php
 	    						$i = 1;
@@ -35,11 +35,11 @@
 	    			</span>
     			</div>
 	    	</div>
-	    	<div class="buddy" style="display: block;">
+	    	<div class="buddy">
 	    		<div class="avatar" >
 	    			<span class="infoText">
 	    				<?php echo $lang['page_2_poi_1']; ?><br />
-	    				<?php echo $lang['page_2_poi_3']; ?><br />
+	    				<b><?php echo $lang['page_2_poi_3']; ?></b><br />
 	    				<ul>
 	    					<?php
 	    						$i = 1;

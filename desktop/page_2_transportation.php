@@ -20,48 +20,60 @@
 			<p><?php echo $lang['page_1_10']; ?></p>
 		</div>
 		<div id="container">
-	    	<div class="buddy" style="display: block;">
+            <div class="buddy" style="display: block;">
+                <div class="avatar" >
+                    <span class="infoText">
+                        <b><?php echo $lang['page_2_transport_1']; ?></b><br />
+                        <?php echo $lang['page_2_transport_2']; ?><br />
+                        <br />
+                        <ul>
+                            <li>
+                                <?php echo $lang['page_2_transport_3']; ?><br />
+                                <?php echo $lang['page_2_transport_4']; ?>
+                            </li>
+                        </ul>
+                    </span>
+                </div>
+            </div>
+            <div class="buddy">
+                <div class="avatar" >
+                    <span class="infoText">
+                        <b><?php echo $lang['page_2_transport_1']; ?></b><br />
+                        <?php echo $lang['page_2_transport_2']; ?><br />
+                        <br />
+                        <ul>
+                            <li>
+                                <?php echo $lang['page_2_transport_5']; ?><br />
+                                <?php echo $lang['page_2_transport_6']; ?><br />
+                                <?php echo $lang['page_2_transport_7']; ?>
+                            </li>
+                        </ul>
+                    </span>
+                </div>
+            </div>
+	    	<div class="buddy">
 	    		<div class="avatar" >
-	    			<span class="infoText">
-	    				<b><?php echo $lang['page_2_transport_1']; ?></b><br />
-	    				<?php echo $lang['page_2_transport_2']; ?><br />
-	    				<br />
-	    				<ul>
-		    				<li>
-		    					<?php echo $lang['page_2_transport_3']; ?><br />
-		    					<?php echo $lang['page_2_transport_4']; ?>
-	    					</li>
-	    					<li>
-			    				<?php echo $lang['page_2_transport_5']; ?><br />
-			    				<?php echo $lang['page_2_transport_6']; ?><br />
-			    				<?php echo $lang['page_2_transport_7']; ?>
-		    				</li>
-	    				</ul>
-	    			</span>
+                    <span class="infoText">
+                        <b><?php echo $lang['page_2_transport_1']; ?></b><br />
+                        <?php echo $lang['page_2_transport_2']; ?><br />
+                        <br />
+                        <ul>
+                            <li>
+                                <?php echo $lang['page_2_transport_8']; ?><br />
+                                <?php echo $lang['page_2_transport_9']; ?>
+                            </li>
+                        </ul>
+                    </span>
     			</div>
 	    	</div>
-	    	<div class="buddy" style="display: block;">
+	    	<div class="buddy">
 	    		<div class="avatar" >
-	    			<span class="infoText">
-	    				<b><?php echo $lang['page_2_transport_1']; ?></b><br />
-	    				<?php echo $lang['page_2_transport_2']; ?><br />
-	    				<br />
-	    				<ul>
-		    				<li>
-		    					<?php echo $lang['page_2_transport_8']; ?><br />
-		    					<?php echo $lang['page_2_transport_9']; ?>
-	    					</li>
-	    				</ul>
-	    			</span>
-    			</div>
-	    	</div>
-	    	<div class="buddy" style="display: block;">
-	    		<div class="avatar" >
-	    			<span class="infoText">
-	    				<b><?php echo $lang['page_2_transport_10']; ?></b><br />
-	    				<?php echo $lang['page_2_transport_11']; ?><br />
-	    				<?php echo $lang['page_2_transport_12']; ?>
-	    			</span>
+                    <span class="infoText">
+                        <b><?php echo $lang['page_2_transport_10']; ?></b><br />
+                        <?php echo $lang['page_2_transport_11']; ?><br />
+                        <br />
+                        <?php echo $lang['page_2_transport_12']; ?>
+                    </span>
     			</div>
 	    	</div>
 	  	</div>

@@ -41,7 +41,7 @@
 							</tr>
 							<tr>
 								<td><a href="../desktop/page_2_calender.php" data-mini="true" data-theme="d" data-role="button"><?php echo $lang['page_menu_9']; ?></a></td>
-								<td><a href="../desktop/page_2_traditions.php" data-mini="true" data-theme="d" data-role="button"><?php echo $lang['page_menu_13']; ?></a></td>
+								<td><a href="../desktop/page_2_traditions.php" data-mini="true" data-theme="d" data-role="button" target="_self"><?php echo $lang['page_menu_13']; ?></a></td>
 							</tr>
 							<tr>
 								<td><a href="../desktop/page_2_old_invite.php" data-mini="true" data-theme="d" data-role="button" target="_self"><?php echo $lang['page_menu_11']; ?></a></td>

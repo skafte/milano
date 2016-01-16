@@ -22,8 +22,11 @@
 	    	<div class="buddy" style="display: block;">
 	    		<div class="avatar" >
 	    			<span class="infoText">
-	    				<?php echo $lang['page_2_calender_1']; ?><br />
-	    				<?php echo $lang['page_2_calender_2']; ?><br />
+	    				<ul>
+	    					<li><?php echo $lang['page_2_calender_1']; ?></li>
+	    					<li><?php echo $lang['page_2_calender_2']; ?></li>
+    					</ul>
+	    				<br />
 	    				<?php echo $lang['page_2_calender_3']; ?> <a href="http://doodle.com/poll/sq6rkben4f8f53t8" target='_blank'><?php echo $lang['page_2_calender_4']; ?></a> <?php echo $lang['page_2_calender_5']; ?>
 	    			</span>
     			</div>

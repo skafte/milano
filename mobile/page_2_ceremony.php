@@ -3,7 +3,7 @@
 ?>
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<link rel="stylesheet" href="../libs/jquery/jquery.mobile-1.4.5.min.css">
-		<link rel="stylesheet" href="../common_files/desktop.css">
+		<link rel="stylesheet" href="../common_files/mobile.css">
         <script type="text/javascript" src="../libs/jquery/jquery-2.1.4.min.js"></script>
 		<?php include("scripts.js.php"); ?>
 		<script type="text/javascript" src="../libs/jquery/jquery.mobile-1.4.5.min.js"></script>

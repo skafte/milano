@@ -30,14 +30,15 @@
     $lang['page_menu_11'] = "Den første invitation";
     $lang['page_menu_12'] = "Ønskeliste";
 
-    $lang['page_2_ceremony_1'] = "The ceremony will take place at the Palazzo Reale, at Piazza del Duomo, 12 (see Map).";
-    $lang['page_2_ceremony_2'] = "Transport will be arranged by us.";
-    $lang['page_2_ceremony_3'] = "More detailed information will follow.";
+    $lang['page_2_ceremony_1'] = "Ceremony finder sted kl 13.30 på Palazzo Reale, ved Piazza del Duomo, 12 (se kortet).";
+    $lang['page_2_ceremony_2'] = "Der må gerne tages billeder undervejs, forudsat at de bliver delt med os efterfølgende.";
+    $lang['page_2_ceremony_3'] = "Efter ceremonien har vi en event klar til os alle frem mod festen. Hvad det er må I vente og se :)";
+    $lang['page_2_ceremony_4'] = "Transport from Milano centrum til Festen har vi arrangeret.";
 
     $lang['page_2_party_1'] = "Vi holder fest på Mulino dell'Offellera, Via Talete, 2, 20864 Agrate Brianza.";
     $lang['page_2_party_2'] = "Vi starter kl 18 med en aperitivo før middaggen.";
-    $lang['page_2_party_3'] = "Bagefter vil det være mulighed for en drink og at fortsætte festen på stedet.";
-    $lang['page_2_party_4'] = "Flere detaljer og information kommer senere.";
+    $lang['page_2_party_3'] = "Der må gerne tages billeder undervejs, forudsat at de bliver delt med os efterfølgende.";
+    $lang['page_2_party_4'] = "Bagefter vil det være mulighed for en drink og at fortsætte festen på stedet.";
 
     $lang['page_2_map_1'] = "Vi har lagt nogle lokaliteter ind på dette";
     $lang['page_2_map_2'] = "kort";
@@ -62,7 +63,8 @@
     $lang['page_2_transport_9'] = "Ryainair flyver til denne lufthavn.";
     $lang['page_2_transport_10'] = "Transport rundt i Milano";
     $lang['page_2_transport_11'] = "Når I er ankommet til Milano kan man med fordel købe endagsbilletter som virker både i metroen, sporgvogne og busser.";
-    $lang['page_2_transport_12'] = "Vi har sørger for transport til resturanten hvor festen skal holdes (mere information vil komme).";
+    $lang['page_2_transport_12'] = "Det er ikke tilrådeligt at køre i bil i Milano by, trafikken er tæt og der er næsten umuligt at finde parkeringsplads.";
+    $lang['page_2_transport_13'] = "Vi har sørger for transport til resturanten hvor festen skal holdes (mere information vil komme).";
 
     $lang['page_2_poi_1'] = "Hvis I tilbringer flere dage i Milano, foreslår vi at I ser:";
     $lang['page_2_poi_2'] = "Interesante steder";
@@ -85,10 +87,10 @@
     $lang['page_2_calender_4'] = "Doodle kalender";
     $lang['page_2_calender_5'] = "hvori I kan afkrydse hvilke dage I vil være i Milano. Det vil være fint hvis I også skriver en kommentar ind om hvilke hotel I bor på, det kan hjælpe andre med deres valg.";
 
-    $lang['page_2_tradtions_1'] = "Vi håber på et festligt miks at både danske og italienske traditioner (engelske, polske, peruvianske og bulgarske er også velkommene).";
-    $lang['page_2_tradtions_2'] = "Og med sådan et vælg af traditioner så kan der måske opstå en vis forvirring om hvad der skal ske ved en given seance. Så derfor vil vi, med et smil, opfordre til at første gang man starter en seance så rejser man sig op og forklare hvad der skal til at ske og hvor traditionen stammer fra / hvorfor den bliver gjort.";
-    $lang['page_2_tradtions_3'] = "Ris!";
-    $lang['page_2_tradtions_4'] = "Fordi ceremonien bliver holdt tæt ved Duomo så er der stor risiko for et remake af Alfred Hitchcocks Fuglene med katedralens duer. Og selv om remakes er det nye sort i Hollywood, og det kan man mene både godt og skidt om. Så er det nok bedst hvis vi overlader den slags til professionelle ;) så ingen ris tak.";
+    $lang['page_2_traditions_1'] = "Vi håber på et festligt miks at både danske og italienske traditioner (engelske, polske, peruvianske og bulgarske er også velkommene).";
+    $lang['page_2_traditions_2'] = "Og med sådan et vælg af traditioner så kan der måske opstå en vis forvirring om hvad der skal ske ved en given seance. Så derfor vil vi, med et smil, opfordre til at der efter hver ny seance bliver holdt en kort tale der forklare hvad der lige skete og hvor traditionen stammer fra / hvorfor den bliver gjort.";
+    $lang['page_2_traditions_3'] = "Ris!";
+    $lang['page_2_traditions_4'] = "Fordi ceremonien bliver holdt tæt ved Duomo så er der stor risiko for et remake af Alfred Hitchcocks Fuglene med katedralens duer. Og selv om remakes er det nye sort i Hollywood, og det kan man mene både godt og skidt om. Så er det nok bedst hvis vi overlader den slags til professionelle ;) så ingen ris tak.";
 
     $lang['page_2_wishlist_1'] = "Alt vi ønsker til vores bryllup er at se jer alle fejre det med os.";
     $lang['page_2_wishlist_2'] = "Med nogen har truet med at give os hundred par sokker hvis vi ikke ønsker os noget andet, og selv om sokker er dejlige så er hundred par lige i overkanten, så herunder finder I nogle af vores ønsker.";
@@ -100,7 +102,8 @@
     $lang['page_2_wishlist_list_6'] = "Saftpresser";
 
     $lang['page_2_answer_1'] = "Vi ser frem til at se dig/jer i Milano lørdag den 14. maj, 2016!";
-    $lang['page_2_answer_2'] = "Så send os venligst dit svar med følgende information:";
+    $lang['page_2_answer_2'] = "Please confirm your presence by filling out the form on the following pages:";
+    $lang['page_2_answer_2'] = "Så send os venligst dit svar ved at udfylde formen på de følgende sider:";
     $lang['page_2_answer_3'] = "Navn(e)";
     $lang['page_2_answer_4'] = "Hvor mange kommer du/I";
     $lang['page_2_answer_5'] = "Til ceremonien (kl 13.30, ved Palazzo Reale)";
@@ -109,8 +112,8 @@
     $lang['page_2_answer_8'] = "Send svar";
     $lang['page_2_answer_9'] = "Ser frem til at deltage.";
     $lang['page_2_answer_10'] = "Kan desværre ikke deltage.";
-    $lang['page_2_answer_11'] = "Vi ses i Milano :D";
-    $lang['page_2_answer_12'] = "Vi er kede af at du ikke kan fejre dagen sammen med os :(";
+    $lang['page_2_answer_send_1'] = "Vi ses i Milano";
+    $lang['page_2_answer_send_2'] = "Vi er kede af at du ikke kan fejre dagen sammen med os";
 
     $lang[''] = "";
 ?>

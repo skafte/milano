@@ -10,7 +10,7 @@
     }
 
     function backToMenu() {
-        window.open("Page_menu.php", "_self");
+        window.open("page_menu.php", "_self");
     }
 
     function changeTitle() {

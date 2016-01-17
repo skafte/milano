@@ -30,14 +30,15 @@
     $lang['page_menu_11'] = "The first invitation";
     $lang['page_menu_12'] = "Wish list";
 
-    $lang['page_2_ceremony_1'] = "The ceremony will take place at the Palazzo Reale, at Piazza del Duomo, 12 (see Map).";
-    $lang['page_2_ceremony_2'] = "Transport will be arranged by us.";
-    $lang['page_2_ceremony_3'] = "More detailed information will follow.";
+    $lang['page_2_ceremony_1'] = "The ceremony will take place at 13.30 on the Palazzo Reale, at Piazza del Duomo, 12 (see Map).";
+    $lang['page_2_ceremony_2'] = "Take as many pictures are you like, conditioned that you shade them with us afterwards.";
+    $lang['page_2_ceremony_3'] = "After the ceremony will an event be ready for us all in the hours before the party. Exactly what it is? you will have to wait and see :)";
+    $lang['page_2_ceremony_4'] = "We have arranged transport from Milan center to the party.";
 
     $lang['page_2_party_1'] = "The celebration takes place at Mulino dell'Offellera, in Via Talete, 2, 20864 Agrate Brianza.";
     $lang['page_2_party_2'] = "The party wil start at 18 o'clock with an aperitivo, followed by a dinner.";
-    $lang['page_2_party_3'] = "It is possible to continue the celebration after dinner with drinks in the same location.";
-    $lang['page_2_party_4'] = "More detailed information will follow.";
+    $lang['page_2_party_3'] = "Take as many pictures are you like, conditioned that you shade them with us afterwards.";
+    $lang['page_2_party_4'] = "It is possible to continue the celebration after dinner with drinks in the same location.";
 
     $lang['page_2_map_1'] = "We have plotted some usefull locations on this ";
     $lang['page_2_map_2'] = "map";
@@ -62,7 +63,8 @@
     $lang['page_2_transport_9'] = "Ryainair flies to this airport.";
     $lang['page_2_transport_10'] = "Transport around Milan";
     $lang['page_2_transport_11'] = "Once in Milan, you can buy a day ticket valid for metro, tram and bus.";
-    $lang['page_2_transport_12'] = "We will arrange transport to the restaurant of the Party (info will be added at a later stage).";
+    $lang['page_2_transport_12'] = "It is not recomented to use car inside Milan city as the traffic is heavy and there are almost no parking spaces.";
+    $lang['page_2_transport_13'] = "We will arrange transport to the restaurant of the Party (info will be added at a later stage).";
 
     $lang['page_2_poi_1'] = "If you are spending some days in Milan, we recommend you to visit.";
     $lang['page_2_poi_2'] = "Points of interest";
@@ -85,10 +87,10 @@
     $lang['page_2_calender_4'] = "Doodle calender";
     $lang['page_2_calender_5'] = "that you all can plot in the days you will be staying in Milan. It would also be great if you write as a comment in which hotel you will be, that can help others in their decision.";
 
-    $lang['page_2_tradtions_1'] = "We hope for a great mix or Danish and Italian traditions (Bulgarian, English, Peruvian and  Polish are also welcome).";
-    $lang['page_2_tradtions_2'] = "And because of this great gathering of traditions a certaion amount of confusion may happen when a seance is about to start. So we would encurage, with a smile, that the first time a seance is about to start you stand up and explain what is about to happen and where the tradition originates from / why it is done.";
-    $lang['page_2_tradtions_3'] = "Rice!";
-    $lang['page_2_tradtions_4'] = "Because the ceremony is close to Duomo there is a big risk of a remake of The Birds by Alfred Hitchcock starring the cathedrals doves. Even though remakes is the new black in Hollywood, which one can think is good or bad. We think that it would be best if we leave it to the professionels ;) so no rise please.";
+    $lang['page_2_traditions_1'] = "We hope for a great mix or Danish and Italian traditions (Bulgarian, English, Peruvian and  Polish are also welcome).";
+    $lang['page_2_traditions_2'] = "And because of this great gathering of traditions a certaion amount of confusion may happen when a seance is about to start. So we would encurage, with a smile, that after the first time a seance is held a short speach that explains what just happened and where the tradition originates from / why it is done.";
+    $lang['page_2_traditions_3'] = "Rice!";
+    $lang['page_2_traditions_4'] = "Because the ceremony is close to Duomo there is a big risk of a remake of The Birds by Alfred Hitchcock starring the cathedrals doves. Even though remakes is the new black in Hollywood, which one can think is good or bad. We think that it would be best if we leave it to the professionels ;) so no rise please.";
 
     $lang['page_2_wishlist_1'] = "All we want for our wedding is to see you all celebrating with us.";
     $lang['page_2_wishlist_2'] = "Some have threatened to give us a hundred pairs of socks as a wedding present if we have no wishes ourselves, and although socks are nice a hundred pairs is a bit too many, so below are some wishes:";
@@ -99,8 +101,8 @@
     $lang['page_2_wishlist_list_5'] = "Icecreame maker machine";
     $lang['page_2_wishlist_list_6'] = "Juicer";
 
-    $lang['page_2_answer_1'] = "We look forward to seeing you in Milan Saturday the 14th of May, 2016!";
-    $lang['page_2_answer_2'] = "Please confirm your presence with the follwing:";
+    $lang['page_2_answer_1'] = "We hope to see you in Milan Saturday the 14th of May, 2016!";
+    $lang['page_2_answer_2'] = "Please confirm your presence by filling out the form on the following pages:";
     $lang['page_2_answer_3'] = "Name(s)";
     $lang['page_2_answer_4'] = "How many will you be coming";
     $lang['page_2_answer_5'] = "For the ceremony (at 13.30, at Palazzo Reale)";
@@ -109,8 +111,8 @@
     $lang['page_2_answer_8'] = "Send answer";
     $lang['page_2_answer_9'] = "Looking forward to attending";
     $lang['page_2_answer_10'] = "Unfortunately cannot attent.";
-    $lang['page_2_answer_11'] = "See you in Milan :D";
-    $lang['page_2_answer_12'] = "We are sorry you won't be part of our celebration :(";
+    $lang['page_2_answer_send_1'] = "See you in Milan";
+    $lang['page_2_answer_send_2'] = "We are sorry you won't be part of our celebration";
 
     $lang[''] = "";
 ?>

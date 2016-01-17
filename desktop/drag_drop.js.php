@@ -99,6 +99,8 @@
     }
 
     function sendMail(page) {
+        console.log("page: " + page);
+        console.log("msgLog: " + msgLog);
         var msg = "<b>Page: </b>" + page + "<br />" + msgLog + "<br /><br /><b>Valgt sprog fil:</b> <?php echo $lang_file; ?>";
         var req = new XMLHttpRequest();
         req.open("POST", "../common_files/sendmail.php", true);
@@ -113,9 +115,11 @@
                 else
                     echo "false";
              ?>) {
-            req.send("msg=" + msg);
+            console.log('php');
+            req.send("PHP sending, msg=" + msg);
         }
         else {
+            console.log('formMail');
             var MyIFrame = document.getElementById("formFrame");
             var MyIFrameDoc = MyIFrame.contentDocument || MyIFrame.contentWindow.document;
 

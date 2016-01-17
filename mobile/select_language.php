@@ -2,7 +2,8 @@
     include("../common_files/header.php");
     $sllogger = "";
     if (isset($_COOKIE['lang']) && (!isset($_GET['lang']))) {
-        echo '<meta http-equiv="refresh" content="0; url=page_1.php">';
+        // echo '<meta http-equiv="refresh" content="0; url=page_1.php">';
+        echo '<meta http-equiv="refresh" content="0; url=page_menu.php?reload">';
         die;
     }
 

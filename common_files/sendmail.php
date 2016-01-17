@@ -19,9 +19,8 @@
         $msg .= $_POST['msg'];
 
     setcookie('msg', "Already send", time() + (3600 * 24 * 300), $inviteRoot);
-    if ($_POST['msg'] == "false") {
+    if ($_POST['msg'] == "false")
         echo 'Just cookie sat';
-    }
     else {
     	// Mail Transport
     	$transport = Swift_SmtpTransport::newInstance('send.one.com', 25)

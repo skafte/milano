@@ -32,7 +32,7 @@
         else
             $("#container").append("<div class='buddy' style='display: block;'><span class='infoText'><?php echo $lang['page_1_6']; ?></span></div>").fadeIn(400);
     });
-    function doSwipeLeft(his) {
+    function doSwipeLeft() {
         writeToLog("Disike", $(this).context.children[0].children[0].innerHTML);
 
         $(this).addClass('rotate-left').delay(700).fadeOut(1);
@@ -56,6 +56,25 @@
             sendMail("page_1");
             $("#container").append("<div class='buddy' style='display: block;'><span class='infoText'><?php echo $lang['page_1_6']; ?></span></div>").fadeIn(400);
         }
+        else
+            $(this).next().removeClass('rotate-left rotate-right').fadeIn(400);
+    }
+
+    function doSwipeLeftOld() {
+        $(this).addClass('rotate-right').delay(700).fadeOut(1);
+        $('.buddy').find('.status').remove();
+
+        if ($(this).is(':last-child'))
+            location.reload();
+        else
+            $(this).next().removeClass('rotate-left rotate-right').fadeIn(400);
+    }
+    function doSwipeRightOld() {
+        $(this).addClass('rotate-left').delay(700).fadeOut(1);
+        $('.buddy').find('.status').remove();
+
+        if ($(this).is(':last-child'))
+            location.reload();
         else
             $(this).next().removeClass('rotate-left rotate-right').fadeIn(400);
     }

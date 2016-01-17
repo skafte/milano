@@ -7,7 +7,7 @@
 		<link rel="stylesheet" href="../libs/jquery/invite.min.css" />
   		<link rel="stylesheet" href="../libs/jquery/jquery.mobile.icons.min.css" />
 		<link rel="stylesheet" href="../libs/jquery/jquery.mobile-1.4.5.min.css">
-		<link rel="stylesheet" href="../common_files/desktop.css">
+		<link rel="stylesheet" href="../common_files/mobile.css">
         <script type="text/javascript" src="../libs/jquery/jquery-2.1.4.min.js"></script>
 		<?php include("scripts.js.php"); ?>
 		<script type="text/javascript" src="../libs/jquery/jquery.mobile-1.4.5.min.js"></script>
@@ -27,29 +27,29 @@
 	    		<div class="avatar" >
 	    			<span class="infoText">
 	    				<div data-role="controlgroup" data-theme="c" >
-							<a href="../desktop/page_2_ceremony.php" data-role="button"><?php echo $lang['page_menu_6']; ?></a>
-							<a href="../desktop/page_2_party.php" data-role="button"><?php echo $lang['page_menu_7']; ?></a>
+							<a href="../mobile/page_2_ceremony.php" data-role="button"><?php echo $lang['page_menu_6']; ?></a>
+							<a href="../mobile/page_2_party.php" data-role="button"><?php echo $lang['page_menu_7']; ?></a>
 						</div>
 						<table>
 							<tr>
-								<td><a href="../desktop/page_2_map.php" data-mini="true" data-theme="d" data-role="button"><?php echo $lang['page_menu_5']; ?></a></td>
-								<td><a href="../desktop/page_2_hotels.php" data-mini="true" data-theme="d" data-role="button"><?php echo $lang['page_menu_3']; ?></a></td>
+								<td><a href="../mobile/page_2_map.php" data-mini="true" data-theme="d" data-role="button"><?php echo $lang['page_menu_5']; ?></a></td>
+								<td><a href="../mobile/page_2_hotels.php" data-mini="true" data-theme="d" data-role="button"><?php echo $lang['page_menu_3']; ?></a></td>
 							</tr>
 							<tr>
-								<td><a href="../desktop/page_2_transportation.php" data-mini="true" data-theme="d" data-role="button" target="_self"><?php echo $lang['page_menu_4']; ?></a></td>
-								<td><a href="../desktop/page_2_poi.php" data-mini="true" data-theme="d" data-role="button" target="_self"><?php echo $lang['page_menu_8']; ?></a></td>
+								<td><a href="../mobile/page_2_transportation.php" data-mini="true" data-theme="d" data-role="button" target="_self"><?php echo $lang['page_menu_4']; ?></a></td>
+								<td><a href="../mobile/page_2_poi.php" data-mini="true" data-theme="d" data-role="button" target="_self"><?php echo $lang['page_menu_8']; ?></a></td>
 							</tr>
 							<tr>
-								<td><a href="../desktop/page_2_calender.php" data-mini="true" data-theme="d" data-role="button"><?php echo $lang['page_menu_9']; ?></a></td>
-								<td><a href="../desktop/page_2_traditions.php" data-mini="true" data-theme="d" data-role="button" target="_self"><?php echo $lang['page_menu_13']; ?></a></td>
+								<td><a href="../mobile/page_2_calender.php" data-mini="true" data-theme="d" data-role="button"><?php echo $lang['page_menu_9']; ?></a></td>
+								<td><a href="../mobile/page_2_traditions.php" data-mini="true" data-theme="d" data-role="button" target="_self"><?php echo $lang['page_menu_13']; ?></a></td>
 							</tr>
 							<tr>
-								<td><a href="../desktop/page_2_old_invite.php" data-mini="true" data-theme="d" data-role="button" target="_self"><?php echo $lang['page_menu_11']; ?></a></td>
-								<td><a href="../desktop/page_2_wishlist.php" data-mini="true" data-theme="d" data-role="button"><?php echo $lang['page_menu_12']; ?></a></td>
+								<td><a href="../mobile/page_2_old_invite.php" data-mini="true" data-theme="d" data-role="button" target="_self"><?php echo $lang['page_menu_11']; ?></a></td>
+								<td><a href="../mobile/page_2_wishlist.php" data-mini="true" data-theme="d" data-role="button"><?php echo $lang['page_menu_12']; ?></a></td>
 							</tr>
 						</table>
 	    				<div data-role="controlgroup" data-theme="e">
-							<a href="../desktop/page_2_answer.php" data-role="button" target="_self"><?php echo $lang['page_menu_10']; ?></a>
+							<a href="../mobile/page_2_answer.php" data-role="button" target="_self"><?php echo $lang['page_menu_10']; ?></a>
 						</div>
 	    			</span>
     			</div>

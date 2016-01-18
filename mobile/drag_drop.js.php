@@ -10,8 +10,8 @@
         exit;
 
     $lang_file = "language.dk.php";
-    if (isset($_COOKIE['lang']))
-        $lang_file = $_COOKIE['lang'];
+    if (isset($_COOKIE['selectedLanguage']))
+        $lang_file = $_COOKIE['selectedLanguage'];
     include('../language/' . $lang_file);
 
     // check if msg have already been seen to the end once

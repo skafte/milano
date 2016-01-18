@@ -20,6 +20,7 @@
 			<p><?php echo $lang['page_1_10']; ?></p>
 		</div>
 		<div id="container">
+			<div id="dummy"></div>
 	    	<div class="buddy" style="display: block;">
 	    		<div class="avatar" >
 	    			<span class="infoText">
@@ -32,7 +33,8 @@
 	    		<div class="avatar" >
 	    			<span class="infoText">
 	    				<b><?php echo $lang['page_2_traditions_3']; ?></b><br />
-	    				<?php echo $lang['page_2_traditions_4']; ?>
+	    				<?php echo $lang['page_2_traditions_4']; ?><br />
+	    				<?php echo $lang['page_2_traditions_5']; ?>
 	    			</span>
     			</div>
 	    	</div>

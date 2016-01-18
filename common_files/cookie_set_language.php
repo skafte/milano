@@ -9,7 +9,7 @@
    	else if ($_GET['en'])
     	$lang_file = "language.en.php";
 
-	setcookie('lang', $lang_file, time() + (3600 * 24 * 300), $inviteRoot);
+	setcookie('selectedLanguage', $lang_file, time() + (3600 * 24 * 300), $inviteRoot);
 
     header('HTTP/1.1 307 Temporary Redirect');
     // header('Location: ../' . $_GET['look'] . '/page_1.php?reload=true');

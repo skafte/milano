@@ -37,6 +37,7 @@
 		</div>
         <form method="POST" action="page_2_answer_send.php">
             <div id="container">
+                <div id="dummy"></div>
                 <div class="buddy" style="display: block;">
                     <div class="avatar" >
                         <span class="infoText">

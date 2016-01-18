@@ -34,6 +34,7 @@
     $lang['page_2_ceremony_2'] = "Der må gerne tages billeder undervejs, forudsat at de bliver delt med os efterfølgende.";
     $lang['page_2_ceremony_3'] = "Efter ceremonien har vi en event klar til os alle frem mod festen. Hvad det er må I vente og se :)";
     $lang['page_2_ceremony_4'] = "Vi har arrangeret ransport fra Milano centrum til Festen.";
+    $lang['page_2_ceremony_5'] = "Dørene lukkes 13.15, så ikke noget med at komme for sent.";
 
     $lang['page_2_party_1'] = "Vi holder fest på Mulino dell'Offellera, Via Talete, 2, 20864 Agrate Brianza.";
     $lang['page_2_party_2'] = "Vi starter kl 18 med en aperitivo før middaggen.";
@@ -76,7 +77,7 @@
     $lang['page_2_poi_list_a5'] = "Pinacoteca di Brera (kunst udstilling).";
     $lang['page_2_poi_list_a6'] = "Colonne di San Lorenzo (meget hyggeligt og sjovt om aftenen).";
     $lang['page_2_poi_list_b1'] = "Pizzeria Spontini (Via Spontini 4), for en hurtig frokost når man er i gang med at bruge hele sin løn i shopping gaden (Corso Buenos Aires).";
-    $lang['page_2_poi_list_b2'] = "Navigli området, meget godt at finde til en aperitivo eller middag.";
+    $lang['page_2_poi_list_b2'] = "Navigli området (meget godt at finde til en aperitivo eller middag).";
     $lang['page_2_poi_list_b3'] = "Arco della Pace (et godt sted til happy hour/aperitivos).";
     $lang['page_2_poi_list_b4'] = "Panzerotti Luini, Via Santa Radegonda 16.";
     $lang['page_2_poi_list_b5'] = "Gelateria Grom.";
@@ -87,10 +88,11 @@
     $lang['page_2_calender_4'] = "Doodle kalender";
     $lang['page_2_calender_5'] = "hvori I kan afkrydse hvilke dage I vil være i Milano. Det vil være fint hvis I også skriver en kommentar ind om hvilke hotel I bor på, det kan hjælpe andre med deres valg.";
 
-    $lang['page_2_traditions_1'] = "Vi håber på et festligt miks at både danske og italienske traditioner (engelske, polske, peruvianske og bulgarske er også velkommene).";
+    $lang['page_2_traditions_1'] = "Vi håber på et festligt miks at både danske og italienske traditioner (bulgarske, engelske, polske, peruvianske og rumænske er også velkommene).";
     $lang['page_2_traditions_2'] = "Og med sådan et vælg af traditioner så kan der måske opstå en vis forvirring om hvad der skal ske ved en given seance. Så derfor vil vi, med et smil, opfordre til at der efter hver ny seance bliver holdt en kort tale der forklare hvad der lige skete og hvor traditionen stammer fra / hvorfor den bliver gjort.";
     $lang['page_2_traditions_3'] = "Ris!";
-    $lang['page_2_traditions_4'] = "Fordi ceremonien bliver holdt tæt ved Duomo så er der stor risiko for et remake af Alfred Hitchcocks Fuglene med katedralens duer. Og selv om remakes er det nye sort i Hollywood, og det kan man mene både godt og skidt om. Så er det nok bedst hvis vi overlader den slags til professionelle ;) så ingen ris tak.";
+    $lang['page_2_traditions_4'] = "Fordi ceremonien bliver holdt tæt ved Duomo så er der stor risiko for et remake af Alfred Hitchcocks Fuglene med katedralens duer som stjerner. Og selv om remakes er det nye sort i Hollywood, og det kan man mene både godt og skidt om. Så er det nok bedst hvis vi overlader den slags til professionelle ;)";
+    $lang['page_2_traditions_5'] = "Så ingen ris tak.";
 
     $lang['page_2_wishlist_1'] = "Alt vi ønsker til vores bryllup er at se jer alle fejre det med os.";
     $lang['page_2_wishlist_2'] = "Med nogen har truet med at give os hundred par sokker hvis vi ikke ønsker os noget andet, og selv om sokker er dejlige så er hundred par lige i overkanten, så herunder finder I nogle af vores ønsker.";

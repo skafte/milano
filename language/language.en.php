@@ -34,6 +34,7 @@
     $lang['page_2_ceremony_2'] = "Take as many pictures are you like, conditioned that you share them with us afterwards.";
     $lang['page_2_ceremony_3'] = "After the ceremony will an event be ready for us all in the hours before the party. Exactly what it is? you will have to wait and see :)";
     $lang['page_2_ceremony_4'] = "We have arranged transport from Milan center to the party.";
+    $lang['page_2_ceremony_5'] = "The doors closes at 13.15, so don't be late.";
 
     $lang['page_2_party_1'] = "The party takes place at Mulino dell'Offellera, on Via Talete, 2, 20864 Agrate Brianza.";
     $lang['page_2_party_2'] = "The party wil start at 18 o'clock with an aperitivo, followed by a dinner.";
@@ -54,7 +55,7 @@
 
     $lang['page_2_transport_1'] = "Flights to Milan";
     $lang['page_2_transport_2'] = "You can fly to Milan Malpensa, Milan Linate or Bergamo Orio al Serio.";
-    $lang['page_2_transport_3'] = "Linate is the closest airport and is connected to the city center by several buses, or by taxi. A taxi ride to the city center can cost around 20 €.";
+    $lang['page_2_transport_3'] = "Linate is the closest airport and is connected to the city center by several buses, or by taxi. A taxi ride to the city center can cost around 20€.";
     $lang['page_2_transport_4'] = "SAS typically flies to Linate.";
     $lang['page_2_transport_5'] = "Malpensa is conneted to the central station (Milano Centrale) by 2 buses accessible from Terminal 2.";
     $lang['page_2_transport_6'] = "The ride costs between 8 and 10 € and its 45 min long.";
@@ -64,19 +65,19 @@
     $lang['page_2_transport_10'] = "Transport around Milan";
     $lang['page_2_transport_11'] = "Once in Milan, you can buy a day ticket valid for metro, tram and bus.";
     $lang['page_2_transport_12'] = "It is not recomented to use car inside Milan city as the traffic is heavy and there are almost no parking spaces.";
-    $lang['page_2_transport_13'] = "We will arrange transport to the restaurant of the Party (info will be added at a later stage).";
+    $lang['page_2_transport_13'] = "We have arrange transport to the restaurant of the Party.";
 
     $lang['page_2_poi_1'] = "If you are spending some days in Milan, we recommend you to visit.";
     $lang['page_2_poi_2'] = "Points of interest";
     $lang['page_2_poi_3'] = "For eating";
     $lang['page_2_poi_list_a1'] = "Duomo, inside the cathedral and on the roof top.";
     $lang['page_2_poi_list_a2'] = "Castello Sforzesco (you can walk from Duomo, along Via Dante).";
-    $lang['page_2_poi_list_a3'] = "L'ultima cena (the last supper), Santa Maria delle Grazie, 20123 Milano - booking in advance required (like book now)!";
+    $lang['page_2_poi_list_a3'] = "L'ultima cena (the Last Supper), Santa Maria delle Grazie, 20123 Milano - booking in advance required (like book now)!";
     $lang['page_2_poi_list_a4'] = "Galleria Vittorio Emanuele II (next to Duomo cathedral).";
     $lang['page_2_poi_list_a5'] = "Pinacoteca di Brera (art exhibition).";
     $lang['page_2_poi_list_a6'] = "Colonne di San Lorenzo (particularly cozy and fun in the evening).";
     $lang['page_2_poi_list_b1'] = "Pizzeria Spontini (Via Spontini 4), for a quick lunch in the shopping area (Corso Buenos Aires).";
-    $lang['page_2_poi_list_b2'] = "The Navigli area (very good for aperitivo and dinner.";
+    $lang['page_2_poi_list_b2'] = "The Navigli area (very good for aperitivo and dinner).";
     $lang['page_2_poi_list_b3'] = "Arco della Pace (a good place for happy hour/aperitivos).";
     $lang['page_2_poi_list_b4'] = "Panzerotti Luini, Via Santa Radegonda 16.";
     $lang['page_2_poi_list_b5'] = "Gelateria Grom.";
@@ -87,10 +88,11 @@
     $lang['page_2_calender_4'] = "Doodle calender";
     $lang['page_2_calender_5'] = "that you all can plot in the days you will be staying in Milan. It would also be great if you write as a comment in which hotel you will be, that can help others in their decision.";
 
-    $lang['page_2_traditions_1'] = "We hope for a great mix or Danish and Italian traditions (Bulgarian, English, Peruvian and  Polish are also welcome).";
-    $lang['page_2_traditions_2'] = "And because of this great gathering of traditions a certaion amount of confusion may happen when a seance is about to start. So we would encurage, with a smile, that after the first time a seance is held a short speach that explains what just happened and where the tradition originates from / why it is done.";
+    $lang['page_2_traditions_1'] = "We hope for a great mix of Danish and Italian traditions (Bulgarian, English, Peruvian, Polish and Romanian are also welcome).";
+    $lang['page_2_traditions_2'] = "And because of this great gathering of traditions a certain amount of confusion may happen when a seance is about to start. So we would encurage, with a smile, that after the first time a seance is held a short speech that explains what just happened and where the tradition originates from / why it is done.";
     $lang['page_2_traditions_3'] = "Rice!";
-    $lang['page_2_traditions_4'] = "Because the ceremony is close to Duomo there is a big risk of a remake of The Birds by Alfred Hitchcock starring the cathedrals doves. Even though remakes is the new black in Hollywood, which one can think is good or bad. We think that it would be best if we leave it to the professionels ;) so no rise please.";
+    $lang['page_2_traditions_4'] = "Because the ceremony is close to Duomo there is a big risk of a remake of The Birds by Alfred Hitchcock starring the cathedrals doves. Even though remakes is the new black in Hollywood, which one can think is good or bad. We think that it would be best if we leave it to the professionels ;)";
+    $lang['page_2_traditions_5'] = "So no rise please.";
 
     $lang['page_2_wishlist_1'] = "All we want for our wedding is to see you all celebrating with us.";
     $lang['page_2_wishlist_2'] = "Some have threatened to give us a hundred pairs of socks as a wedding present if we have no wishes ourselves, and although socks are nice a hundred pairs is a bit too many, so below are some wishes:";

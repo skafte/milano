@@ -79,7 +79,7 @@
 	    	</div>
 	  	</div>
 	  	<div id="droppableRightOld" class="ui-widget-header">
-		  	<p><img src="../pics/fast_forward.png" class="icon"></p>
+		  	<p><img src="../pics/fast_forward.png" class="icon" onload="<?php if (isset($_GET['reload'])) echo "window.open('../desktop/page_2_transportation.php', '_self');"; ?>"></p>
 		</div>
 	</body>
 </html>

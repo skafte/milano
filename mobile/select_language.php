@@ -1,10 +1,19 @@
 <?php
     include("../common_files/header.php");
     $sllogger = "";
-    if (isset($_COOKIE['lang']) && (!isset($_GET['lang']))) {
+    if (isset($_COOKIE['selectedLanguage']) && (!isset($_GET['lang']))) {
         // echo '<meta http-equiv="refresh" content="0; url=page_1.php">';
         echo '<meta http-equiv="refresh" content="0; url=page_menu.php?reload">';
         die;
+    }
+    else if (isset($_COOKIE['lang']) && (!isset($_GET['lang']))) {
+        if (($_COOKIE['lang'] == "language.dk.php") || ($_COOKIE['lang'] == "language.en.php") || ($_COOKIE['lang'] == "language.it.php")) {
+            $lang_file = $_COOKIE['lang'];
+            setcookie('selectedLanguage', $lang_file, time() + (3600 * 24 * 300), $inviteRoot);
+            setcookie('lang', $lang_file, time() - 3600, $inviteRoot);
+            echo '<meta http-equiv="refresh" content="0; url=page_menu.php?reload">';
+            die;
+        }
     }
 
     include("../language/language.dk.php");

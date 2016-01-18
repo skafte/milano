@@ -19,8 +19,15 @@
     header("Expires: Sat, 26 Jul 1997 05:00:00 GMT");               // Date in the past
 
     $lang_file = "language.dk.php";
-    if (isset($_COOKIE['lang']))
-        $lang_file = $_COOKIE['lang'];
+    if (isset($_COOKIE['selectedLanguage']))
+        $lang_file = $_COOKIE['selectedLanguage'];
+    else if (isset($_COOKIE['lang'])) {
+        if (($_COOKIE['selectedLanguage'] == "language.dk.php") || ($_COOKIE['selectedLanguage'] == "language.en.php") || ($_COOKIE['selectedLanguage'] == "language.it.php")) {
+            $lang_file = $_COOKIE['selectedLanguage'];
+            setcookie('selectedLanguage', $lang_file, time() + (3600 * 24 * 300), $inviteRoot);
+            setcookie('lang', $lang_file, time() - 3600, $inviteRoot);
+        }
+    }
     include('language/' . $lang_file);
 ?>
     <head>

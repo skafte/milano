@@ -23,6 +23,7 @@
 	    		<div class="avatar" >
 	    			<span class="infoText">
                         <?php echo $lang['page_2_ceremony_1']; ?><br />
+	    				<?php echo $lang['page_2_ceremony_5']; ?><br />
 	    				<?php echo $lang['page_2_ceremony_2']; ?><br />
                         <br />
 	    				<?php echo $lang['page_2_ceremony_3']; ?><br />

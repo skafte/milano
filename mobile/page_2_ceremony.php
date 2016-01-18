@@ -19,10 +19,12 @@
 			<p><?php echo $lang['page_1_10']; ?></p>
 		</div>
 		<div id="container">
+			<div id="dummy"></div>
 	    	<div class="buddy" style="display: block;">
 	    		<div class="avatar" >
 	    			<span class="infoText">
                         <?php echo $lang['page_2_ceremony_1']; ?><br />
+	    				<?php echo $lang['page_2_ceremony_5']; ?><br />
 	    				<?php echo $lang['page_2_ceremony_2']; ?><br />
                         <br />
 	    				<?php echo $lang['page_2_ceremony_3']; ?><br />

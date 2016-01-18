@@ -23,6 +23,7 @@
 		  	<p><img src="../pics/icon_like.png" class="icon" onload="<?php if (isset($_GET['reload'])) echo "window.open('../mobile/page_2_old_invite.php', '_self');"; ?>"></p>
 		</div>
 		<div id="container">
+			<div id="dummy"></div>
 	    	<div class="buddy" style="display: block;">
 	    		<div class="avatar" >
 	    			<span class="infoText"><?php echo $lang['page_1_1']; ?></span>

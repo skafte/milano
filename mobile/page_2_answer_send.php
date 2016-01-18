@@ -26,6 +26,7 @@
             <p><?php echo $lang['page_1_10']; ?></p>
         </div>
         <div id="container">
+            <div id="dummy"></div>
             <div class="buddy" style="display: block;">
                 <div class="avatar" >
                     <span class="infoText">

@@ -104,8 +104,7 @@
     $lang['page_2_wishlist_list_6'] = "Saftpresser";
 
     $lang['page_2_answer_1'] = "Vi ser frem til at se dig/jer i Milano lørdag den 14. maj, 2016!";
-    $lang['page_2_answer_2'] = "Please confirm your presence by filling out the form on the following pages:";
-    $lang['page_2_answer_2'] = "Så send os venligst dit svar ved at udfylde formen på de følgende sider:";
+    $lang['page_2_answer_2'] = "Så send os venligst dit svar, senest søndag den 21. februar, ved at udfylde formen på de følgende sider:";
     $lang['page_2_answer_3'] = "Navn(e)";
     $lang['page_2_answer_4'] = "Hvor mange kommer du/I";
     $lang['page_2_answer_5'] = "Til ceremonien (kl 13.30, ved Palazzo Reale)";

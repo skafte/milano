@@ -104,7 +104,7 @@
     $lang['page_2_wishlist_list_6'] = "Juicer";
 
     $lang['page_2_answer_1'] = "We hope to see you in Milan Saturday the 14th of May, 2016!";
-    $lang['page_2_answer_2'] = "Please confirm your presence by filling out the form on the following pages:";
+    $lang['page_2_answer_2'] = "Please confirm your presence, at the latest sunday the 21st of February, by filling out the form on the following pages:";
     $lang['page_2_answer_3'] = "Name(s)";
     $lang['page_2_answer_4'] = "How many will you be coming";
     $lang['page_2_answer_5'] = "For the ceremony (at 13.30, at Palazzo Reale)";

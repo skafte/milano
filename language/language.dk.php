@@ -30,10 +30,10 @@
     $lang['page_menu_11'] = "Den første invitation";
     $lang['page_menu_12'] = "Ønskeliste";
 
-    $lang['page_2_ceremony_1'] = "Ceremony finder sted kl 13.30 på Palazzo Reale, ved Piazza del Duomo, 12 (se kortet).";
+    $lang['page_2_ceremony_1'] = "Ceremonien finder sted kl 13.30 på Palazzo Reale, ved Piazza del Duomo, 12 (se kortet).";
     $lang['page_2_ceremony_2'] = "Der må gerne tages billeder undervejs, forudsat at de bliver delt med os efterfølgende.";
     $lang['page_2_ceremony_3'] = "Efter ceremonien har vi en event klar til os alle frem mod festen. Hvad det er må I vente og se :)";
-    $lang['page_2_ceremony_4'] = "Transport from Milano centrum til Festen har vi arrangeret.";
+    $lang['page_2_ceremony_4'] = "Vi har arrangeret ransport fra Milano centrum til Festen.";
 
     $lang['page_2_party_1'] = "Vi holder fest på Mulino dell'Offellera, Via Talete, 2, 20864 Agrate Brianza.";
     $lang['page_2_party_2'] = "Vi starter kl 18 med en aperitivo før middaggen.";
@@ -48,23 +48,23 @@
     $lang['page_2_hotels_2'] = "Så check disse websider:";
     $lang['page_2_hotels_3'] = "eller";
     $lang['page_2_hotels_4'] = "for eksempel.";
-    $lang['page_2_hotels_5'] = "Vælg dit budget og hvilke område I har lyst til at bo i (se kortet).";
+    $lang['page_2_hotels_5'] = "Vælg dit budget og hvilke område I har lyst til at bo i (se Kortet).";
     $lang['page_2_hotels_6'] = "Tilbud dukker op hele tiden, så det kan betale sig at lede lidt rundt.";
-    $lang['page_2_hotels_7'] = "Tag også et kig på Doodle Kalenderen, her på siden, for at få en idé om hvor andre festdeltagere skal bo, glemt ikke at skrive dit valg ind på Doodle også :)";
+    $lang['page_2_hotels_7'] = "Tag også et kig på Doodle Kalenderen, her på siden, for at få en idé om hvor andre festdeltagere skal bo, glem ikke at skrive dit valg ind på Doodle også :)";
 
     $lang['page_2_transport_1'] = "Fly til Milano";
     $lang['page_2_transport_2'] = "I kan flyve til Milan Malpensa, Milan Linate eller Bergamo Orio al Serio.";
-    $lang['page_2_transport_3'] = "Linate is den tætteste lufthave på Milano by, der går flere busser mod centrum. En taxi tur til bymidten koster i omegnen af 20€.";
+    $lang['page_2_transport_3'] = "Linate is den tætteste lufthave på Milano by, der går flere busser mod centrum. En taxi tur til bymidten koster i omegnen af 20 €.";
     $lang['page_2_transport_4'] = "SAS flyver typisk til Linate.";
     $lang['page_2_transport_5'] = "Fra Malpensa, terminal 2, går 2 busser til stationen (Milano Centrale).";
-    $lang['page_2_transport_6'] = "Turen koster mellem 8 or 10€ og tager 45 minutter.";
+    $lang['page_2_transport_6'] = "Turen koster mellem 8 or 10 € og tager 45 minutter.";
     $lang['page_2_transport_7'] = "Easyjet har 2 daglige afgange til Milan Malpensa.";
-    $lang['page_2_transport_8'] = "Bergamo (OaS) er på samme måde forbundet med Milano Centrale med busser.";
+    $lang['page_2_transport_8'] = "Bergamo (OaS) er ligeledes forbundet med Milano Centrale med busser, tid og pris er den samme som fra Malpensa.";
     $lang['page_2_transport_9'] = "Ryainair flyver til denne lufthavn.";
     $lang['page_2_transport_10'] = "Transport rundt i Milano";
     $lang['page_2_transport_11'] = "Når I er ankommet til Milano kan man med fordel købe endagsbilletter som virker både i metroen, sporgvogne og busser.";
-    $lang['page_2_transport_12'] = "Det er ikke tilrådeligt at køre i bil i Milano by, trafikken er tæt og der er næsten umuligt at finde parkeringsplads.";
-    $lang['page_2_transport_13'] = "Vi har sørger for transport til resturanten hvor festen skal holdes (mere information vil komme).";
+    $lang['page_2_transport_12'] = "Det er ikke tilrådeligt at køre i bil i Milano by, trafikken er tæt og det er næsten umuligt at finde parkeringsplads.";
+    $lang['page_2_transport_13'] = "Vi har sørger for transport til resturanten hvor festen skal holdes.";
 
     $lang['page_2_poi_1'] = "Hvis I tilbringer flere dage i Milano, foreslår vi at I ser:";
     $lang['page_2_poi_2'] = "Interesante steder";
@@ -74,9 +74,9 @@
     $lang['page_2_poi_list_a3'] = "L'ultima cena (den sidste nadver), Santa Maria delle Grazie, 20123 Milano - man skal forudbestille (som bestil nu)!";
     $lang['page_2_poi_list_a4'] = "Galleria Vittorio Emanuele II (nær Duomo katedralen).";
     $lang['page_2_poi_list_a5'] = "Pinacoteca di Brera (kunst udstilling).";
-    $lang['page_2_poi_list_a6'] = "Colonne di San Lorenzo (meget hyggeligt of sjovt om aftenen).";
+    $lang['page_2_poi_list_a6'] = "Colonne di San Lorenzo (meget hyggeligt og sjovt om aftenen).";
     $lang['page_2_poi_list_b1'] = "Pizzeria Spontini (Via Spontini 4), for en hurtig frokost når man er i gang med at bruge hele sin løn i shopping gaden (Corso Buenos Aires).";
-    $lang['page_2_poi_list_b2'] = "Navigli området, meget for for en aperitivo eller middag.";
+    $lang['page_2_poi_list_b2'] = "Navigli området, meget godt at finde til en aperitivo eller middag.";
     $lang['page_2_poi_list_b3'] = "Arco della Pace (et godt sted til happy hour/aperitivos).";
     $lang['page_2_poi_list_b4'] = "Panzerotti Luini, Via Santa Radegonda 16.";
     $lang['page_2_poi_list_b5'] = "Gelateria Grom.";

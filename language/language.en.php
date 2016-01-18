@@ -31,13 +31,13 @@
     $lang['page_menu_12'] = "Wish list";
 
     $lang['page_2_ceremony_1'] = "The ceremony will take place at 13.30 on the Palazzo Reale, at Piazza del Duomo, 12 (see Map).";
-    $lang['page_2_ceremony_2'] = "Take as many pictures are you like, conditioned that you shade them with us afterwards.";
+    $lang['page_2_ceremony_2'] = "Take as many pictures are you like, conditioned that you share them with us afterwards.";
     $lang['page_2_ceremony_3'] = "After the ceremony will an event be ready for us all in the hours before the party. Exactly what it is? you will have to wait and see :)";
     $lang['page_2_ceremony_4'] = "We have arranged transport from Milan center to the party.";
 
-    $lang['page_2_party_1'] = "The celebration takes place at Mulino dell'Offellera, in Via Talete, 2, 20864 Agrate Brianza.";
+    $lang['page_2_party_1'] = "The party takes place at Mulino dell'Offellera, on Via Talete, 2, 20864 Agrate Brianza.";
     $lang['page_2_party_2'] = "The party wil start at 18 o'clock with an aperitivo, followed by a dinner.";
-    $lang['page_2_party_3'] = "Take as many pictures are you like, conditioned that you shade them with us afterwards.";
+    $lang['page_2_party_3'] = "Take as many pictures are you like, conditioned that you share them with us afterwards.";
     $lang['page_2_party_4'] = "It is possible to continue the celebration after dinner with drinks in the same location.";
 
     $lang['page_2_map_1'] = "We have plotted some usefull locations on this ";
@@ -54,10 +54,10 @@
 
     $lang['page_2_transport_1'] = "Flights to Milan";
     $lang['page_2_transport_2'] = "You can fly to Milan Malpensa, Milan Linate or Bergamo Orio al Serio.";
-    $lang['page_2_transport_3'] = "Linate is the closest airport and is connected to the city center by several buses, or by taxi. A taxi ride to the city center can cost around 20€.";
+    $lang['page_2_transport_3'] = "Linate is the closest airport and is connected to the city center by several buses, or by taxi. A taxi ride to the city center can cost around 20 €.";
     $lang['page_2_transport_4'] = "SAS typically flies to Linate.";
     $lang['page_2_transport_5'] = "Malpensa is conneted to the central station (Milano Centrale) by 2 buses accessible from Terminal 2.";
-    $lang['page_2_transport_6'] = "The ride costs between 8 and 10€ and its 45 min long.";
+    $lang['page_2_transport_6'] = "The ride costs between 8 and 10 € and its 45 min long.";
     $lang['page_2_transport_7'] = "Easyjet has 2 daily flights to Milan Malpensa.";
     $lang['page_2_transport_8'] = "Bergamo (OaS) is also connected to Milan Centrale by a similar bus.";
     $lang['page_2_transport_9'] = "Ryainair flies to this airport.";
@@ -97,8 +97,8 @@
     $lang['page_2_wishlist_list_1'] = "A new washing machine (or a contribution to one).";
     $lang['page_2_wishlist_list_2'] = "Contribution to a trip to New Zealand.";
     $lang['page_2_wishlist_list_3'] = "Bjørn Teddy doughmachine";
-    $lang['page_2_wishlist_list_4'] = "Blender (that can handle icecubes and warm fluids)";
-    $lang['page_2_wishlist_list_5'] = "Icecreame maker machine";
+    $lang['page_2_wishlist_list_4'] = "Blender (that can handle ice cubes and warm fluids)";
+    $lang['page_2_wishlist_list_5'] = "Ice creame maker machine";
     $lang['page_2_wishlist_list_6'] = "Juicer";
 
     $lang['page_2_answer_1'] = "We hope to see you in Milan Saturday the 14th of May, 2016!";

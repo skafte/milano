@@ -1,4 +1,4 @@
-#container {
+#container, #container2 {
     width: 500px;
     margin: auto !important;
     display: block;
@@ -18,6 +18,12 @@
 }
 .icon {
     max-width: 100%;
+    margin-top: 20%;
+}
+.iconSmall {
+    position: absolute;
+    left: 90%;
+    max-width: 10%;
     margin-top: 20%;
 }
 #droppableLeft, #droppableLeftOld {

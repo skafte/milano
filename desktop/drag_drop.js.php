@@ -13,85 +13,46 @@
     if (isset($_COOKIE['selectedLanguage']))
         $lang_file = $_COOKIE['selectedLanguage'];
     include('../language/' . $lang_file);
-
-    // check if msg have already been seen to the end once
-    $isSend = "false";
-    if ((isset($_COOKIE['msg'])) && ($_COOKIE['msg'] == "Already send"))
-        $isSend = "true";
 ?>
 <script type="text/javascript">
     var swipeStart;
     var msgLog = "";
 
     $(document).ready(function() {
-        if ("<?php echo $isSend; ?>" === "false") {
-            $(".buddy").draggable({
-                axis: "x",
-                revert: "invalid",
-                start: function (e, ui) {
-                    swipeStart = ui.position.left;
-                },
-                stop: function (e, ui) {
-                    $(".status").remove();
-                    return true;
-                }
-            });
-            $( "#droppableLeft" ).droppable({
-                drop: function( event, ui ) {
-                    writeToLog("Like", $(ui.draggable).context.children[0].children[0].innerHTML);
+        $(".buddy").draggable({
+            axis: "x",
+            revert: "invalid",
+            start: function (e, ui) {
+                swipeStart = ui.position.left;
+            },
+            stop: function (e, ui) {
+                $(".status").remove();
+                return true;
+            }
+        });
 
-                    $(ui.draggable).addClass('rotate-right').delay(700).fadeOut(1);
-                    $('.buddy').find('.status').remove();
+        $( "#droppableLeftOld" ).droppable({
+            drop: function( event, ui ) {
+                $(ui.draggable).addClass('rotate-right').delay(700).fadeOut(1);
+                $('.buddy').find('.status').remove();
 
-                    if ($(ui.draggable).is(':last-child')) {
-                        sendMail("page_1");
-                        $("#container").append("<div class='buddy' style='display: block;'><span class='infoText'><?php echo $lang['page_1_6']; ?></span></div>").fadeIn(400);
-                    }
-                    else
-                        $(ui.draggable).next().removeClass('rotate-left rotate-right').fadeIn(400);
-                }
-            });
-            $( "#droppableRight" ).droppable({
-                drop: function( event, ui ) {
-                    writeToLog("Dislike", $(ui.draggable).context.children[0].children[0].innerHTML);
+                if ($(ui.draggable).is(':last-child'))
+                    location.reload();
+                else
+                    $(ui.draggable).next().removeClass('rotate-left rotate-right').fadeIn(400);
+            }
+        });
+        $( "#droppableRightOld" ).droppable({
+            drop: function( event, ui ) {
+                $(ui.draggable).addClass('rotate-left').delay(700).fadeOut(1);
+                $('.buddy').find('.status').remove();
 
-                    $(ui.draggable).addClass('rotate-left').delay(700).fadeOut(1);
-                    $('.buddy').find('.status').remove();
-
-                    if ($(ui.draggable).is(':last-child')) {
-                        sendMail("page_1");
-                        $("#container").append("<div class='buddy' style='display: block;'><span class='infoText'><?php echo $lang['page_1_6']; ?></span></div>").fadeIn(400);
-                    }
-                    else
-                        $(ui.draggable).next().removeClass('rotate-left rotate-right').fadeIn(400);
-                }
-            });
-
-            $( "#droppableLeftOld" ).droppable({
-                drop: function( event, ui ) {
-                    $(ui.draggable).addClass('rotate-right').delay(700).fadeOut(1);
-                    $('.buddy').find('.status').remove();
-
-                    if ($(ui.draggable).is(':last-child'))
-                        location.reload();
-                    else
-                        $(ui.draggable).next().removeClass('rotate-left rotate-right').fadeIn(400);
-                }
-            });
-            $( "#droppableRightOld" ).droppable({
-                drop: function( event, ui ) {
-                    $(ui.draggable).addClass('rotate-left').delay(700).fadeOut(1);
-                    $('.buddy').find('.status').remove();
-
-                    if ($(ui.draggable).is(':last-child'))
-                        location.reload();
-                    else
-                        $(ui.draggable).next().removeClass('rotate-left rotate-right').fadeIn(400);
-                }
-            });
-        }
-        else
-            $("#container").append("<div class='buddy' style='display: block;'><span class='infoText'><?php echo $lang['page_1_6']; ?></span></div>").fadeIn(400);
+                if ($(ui.draggable).is(':last-child'))
+                    location.reload();
+                else
+                    $(ui.draggable).next().removeClass('rotate-left rotate-right').fadeIn(400);
+            }
+        });
     });
 
     function writeToLog(mood, onOption) {

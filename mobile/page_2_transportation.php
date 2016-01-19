@@ -19,7 +19,7 @@
 		<div data-role="popup" id="popupBasic" >
 			<p><?php echo $lang['page_1_10']; ?></p>
 		</div>
-		<div id="container">
+		<div id="container2">
             <div id="dummy"></div>
             <div class="buddy" style="display: block;">
                 <div class="avatar" >

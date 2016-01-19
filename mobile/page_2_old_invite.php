@@ -22,7 +22,7 @@
 		<div id="droppableLeftOld" class="desition">
 		  	<p><img src="../pics/icon_like.png" class="icon" onload="<?php if (isset($_GET['reload'])) echo "window.open('../mobile/page_2_old_invite.php', '_self');"; ?>"></p>
 		</div>
-		<div id="container">
+		<div id="container2">
 			<div id="dummy"></div>
 	    	<div class="buddy" style="display: block;">
 	    		<div class="avatar" >

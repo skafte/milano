@@ -13,52 +13,16 @@
     if (isset($_COOKIE['selectedLanguage']))
         $lang_file = $_COOKIE['selectedLanguage'];
     include('../language/' . $lang_file);
-
-    // check if msg have already been seen to the end once
-    $isSend = "false";
-    if ((isset($_COOKIE['msg'])) && ($_COOKIE['msg'] == "Already send"))
-        $isSend = "true";
 ?>
 <script type="text/javascript">
     var swipeStart;
     var msgLog = "";
 
     $(document).ready(function() {
-        if ("<?php echo $isSend; ?>" === "false") {
-            // $.event.special.swipe.horizontalDistanceThreshold = 100;     // virker hvis det er nødvendigt
-            $(".buddy").on("swiperight", doSwipeLeft);
-            $(".buddy").on("swipeleft", doSwipeRight);
-        }
-        else
-            $("#container").append("<div class='buddy' style='display: block;'><span class='infoText'><?php echo $lang['page_1_6']; ?></span></div>").fadeIn(400);
+        $.event.special.swipe.horizontalDistanceThreshold = 100;     // virker hvis det er nødvendigt
+        $(".buddy").on("swiperight", doSwipeRightOld);
+        $(".buddy").on("swipeleft", doSwipeLeftOld);
     });
-    function doSwipeLeft() {
-        writeToLog("Disike", $(this).context.children[0].children[0].innerHTML);
-
-        $(this).addClass('rotate-left').delay(700).fadeOut(1);
-        $('.buddy').find('.status').remove();
-
-        if ($(this).is(':last-child')) {
-            sendMail("page_1");
-            $("#container").append("<div class='buddy' style='display: block;'><span class='infoText'><?php echo $lang['page_1_6']; ?></span></div>").fadeIn(400);
-        }
-        else
-            $(this).next().removeClass('rotate-left rotate-right').fadeIn(400);
-    }
-
-    function doSwipeRight() {
-        writeToLog("Like", $(this).context.children[0].children[0].innerHTML);
-
-        $(this).addClass('rotate-right').delay(700).fadeOut(1);
-        $('.buddy').find('.status').remove();
-
-        if ($(this).is(':last-child')) {
-            sendMail("page_1");
-            $("#container").append("<div class='buddy' style='display: block;'><span class='infoText'><?php echo $lang['page_1_6']; ?></span></div>").fadeIn(400);
-        }
-        else
-            $(this).next().removeClass('rotate-left rotate-right').fadeIn(400);
-    }
 
     function doSwipeLeftOld() {
         $(this).addClass('rotate-right').delay(700).fadeOut(1);

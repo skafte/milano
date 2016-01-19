@@ -19,7 +19,7 @@
 		<div data-role="popup" id="popupBasic" >
 			<p><?php echo $lang['page_1_10']; ?></p>
 		</div>
-		<div id="container">
+		<div id="container2">
 	    	<div class="buddy" style="display: block;">
 	    		<div class="avatar" >
 	    			<span class="infoText">
@@ -39,7 +39,7 @@
 	    	</div>
 	  	</div>
 	  	<div id="droppableRightOld" class="ui-widget-header">
-		  	<p><img src="../pics/fast_forward.png" class="icon"></p>
+		  	<p><img src="../pics/fast_forward.png" class="icon" onload="<?php if (isset($_GET['reload'])) echo "window.open('../desktop/page_1.php', '_self');"; ?>"></p>
 		</div>
 	</body>
 </html>

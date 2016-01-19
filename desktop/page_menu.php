@@ -40,6 +40,9 @@
 			<div data-role="popup" id="popupBasic" >
 				<p><?php echo $lang['page_1_10']; ?></p>
 			</div>
+<?php
+    echo isItatian("YybZkexX6ugge32YDsx8");
+?>
 			<div id="container">
 		    	<div class="buddy" style="display: block;">
 		    		<div class="avatar" >

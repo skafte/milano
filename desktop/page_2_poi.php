@@ -19,6 +19,8 @@
 		<div data-role="popup" id="popupBasic" >
 			<p><?php echo $lang['page_1_10']; ?></p>
 		</div>
+        <br />
+        <span style="font-family: serif; font-style: italic; color:#ff9900;"><?php echo $lang['page_1_11']; ?></span>
 		<div id="container2">
 	    	<div class="buddy" style="display: block;">
 	    		<div class="avatar" >

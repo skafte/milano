@@ -14,6 +14,27 @@
         <script type="text/javascript" src="../libs/jqueryui/jquery-ui.js"></script>
 	</head>
 	<body onload="changeTitle()">
+        <?php
+            function isItatian($inv) {
+                switch ($inv) {
+                    case '26nxaAWbzxq7Fux7EM6S':
+                    case 'YybZkexX6ugge32YDsx8':
+                    case 'WexETHHkDkv2CJVRQEKg':
+                    case 'kEBL3gvS8FFgkD9RGAR9':
+                    case '4K2DpQ23L2WzgNCcdh7x':
+                    case '5kh6sYEHv9psr29UH6dE':
+                    case 'FTb3YgbT233zXHhx6XJv':
+                    case 'FTb3YgbT233zXHhx6XJv':
+                    case 'Su7ARkzpMQwTuRJ3GcjL':
+                    case 'T8ZeYM7PJMmKcrzUmT4B':
+                    case 'd7dsd5Xghge5aCrPDLeH':
+                        return "hidden";
+                    default:
+                        return "visible";
+                }
+                return $invitees['nZcQkyw6w8YaVBGGLcHv'];
+            }
+        ?>
 		<div data-role="header" style="z-index:5;" >
 		    <a class="ui-btn ui-btn-inline ui-mini ui-corner-all ui-btn-icon-left ui-icon-bars" onclick="reselectLanguage()"><?php echo $lang['page_1_8']; ?></a>
 			<h1><?php echo $lang['page_menu_1'] . " " . $invitee . ", " . $lang['page_menu_2']; ?></h1>
@@ -34,11 +55,11 @@
 						<table>
 							<tr>
 								<td><a href="../mobile/page_2_map.php" data-mini="true" data-theme="d" data-role="button"><?php echo $lang['page_menu_5']; ?></a></td>
-								<td><a href="../mobile/page_2_hotels.php" data-mini="true" data-theme="d" data-role="button"><?php echo $lang['page_menu_3']; ?></a></td>
+								<td><a href="../mobile/page_2_hotels.php" style="visibility: <?php echo isItatian($_COOKIE['invitee']); ?>;" data-mini="true" data-theme="d" data-role="button"><?php echo $lang['page_menu_3']; ?></a></td>
 							</tr>
 							<tr>
-								<td><a href="../mobile/page_2_transportation.php" data-mini="true" data-theme="d" data-role="button" target="_self"><?php echo $lang['page_menu_4']; ?></a></td>
-								<td><a href="../mobile/page_2_poi.php" data-mini="true" data-theme="d" data-role="button" target="_self"><?php echo $lang['page_menu_8']; ?></a></td>
+								<td><a href="../mobile/page_2_transportation.php" style="visibility: <?php echo isItatian($_COOKIE['invitee']); ?>;" data-mini="true" data-theme="d" data-role="button" target="_self"><?php echo $lang['page_menu_4']; ?></a></td>
+								<td><a href="../mobile/page_2_poi.php" style="visibility: <?php echo isItatian($_COOKIE['invitee']); ?>;" data-mini="true" data-theme="d" data-role="button" target="_self"><?php echo $lang['page_menu_8']; ?></a></td>
 							</tr>
 							<tr>
 								<td><a href="../mobile/page_2_calender.php" data-mini="true" data-theme="d" data-role="button"><?php echo $lang['page_menu_9']; ?></a></td>

@@ -13,8 +13,8 @@
     $lang['page_1_7'] = "Hjælp";
     $lang['page_1_8'] = "Vælg sprog";
     $lang['page_1_9'] = "Invitation til";
-    $lang['page_1_10'] = "På nogle sider skal man trække og spille tekst-rammen i midten til højre for at se næste tekst.";
-    $lang['page_1_11'] = "På denne side skal man trække og spille tekst-rammen i midten til højre for at se næste tekst.";
+    $lang['page_1_10'] = "På nogle sider skal man trække og slippe tekst-rammen i midten til højre, over pilen, for at se næste tekst.";
+    $lang['page_1_11'] = "På denne side skal man trække og slippe tekst-rammen i midten til højre, over pilen, for at se næste tekst.";
 
     $lang['page_menu_0'] = "Tilbage";
     $lang['page_menu_1'] = "Velkommen";

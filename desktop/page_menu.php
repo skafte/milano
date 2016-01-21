@@ -12,25 +12,29 @@
 		<?php include("scripts.js.php"); ?>
 		<script type="text/javascript" src="../libs/jquery/jquery.mobile-1.4.5.min.js"></script>
         <script type="text/javascript" src="../libs/jqueryui/jquery-ui.js"></script>
-        <script type="text/javascript">
-    $(document).on('pagebeforeload', function(event, data) {
-    var url = data.url;
-    if (url.toLowerCase().indexOf("office") >= 0) {
-        event.preventDefault();
-        $.get(data.absUrl, {}, function(res){
-            _this = $(res);
-            if (_this.attr('data-id')>0) {
-                var card_id = _this.attr('data-id');
-                $('#detail-'+card_id).empty().append(_this).trigger('create');
-            }
-        });
-        data.deferred.reject( data.absUrl, data.options );
-    }
-});
-    $.mobile.page.prototype.options.domCache = false;
-    </script>
 	</head>
-	<body onload="changeTitle(); openHelper()">
+	<body onload="changeTitle();">
+        <?php
+            function isItatian($inv) {
+                switch ($inv) {
+                    case '26nxaAWbzxq7Fux7EM6S':
+                    case 'YybZkexX6ugge32YDsx8':
+                    case 'WexETHHkDkv2CJVRQEKg':
+                    case 'kEBL3gvS8FFgkD9RGAR9':
+                    case '4K2DpQ23L2WzgNCcdh7x':
+                    case '5kh6sYEHv9psr29UH6dE':
+                    case 'FTb3YgbT233zXHhx6XJv':
+                    case 'FTb3YgbT233zXHhx6XJv':
+                    case 'Su7ARkzpMQwTuRJ3GcjL':
+                    case 'T8ZeYM7PJMmKcrzUmT4B':
+                    case 'd7dsd5Xghge5aCrPDLeH':
+                        return "hidden";
+                    default:
+                        return "visible";
+                }
+                return $invitees['nZcQkyw6w8YaVBGGLcHv'];
+            }
+        ?>
         <div data-role="page" data-dom-cache="false">
 			<div data-role="header" style="z-index:5;" >
 			    <a class="ui-btn ui-btn-inline ui-mini ui-corner-all ui-btn-icon-left ui-icon-bars" onclick="reselectLanguage()"><?php echo $lang['page_1_8']; ?></a>
@@ -40,9 +44,6 @@
 			<div data-role="popup" id="popupBasic" >
 				<p><?php echo $lang['page_1_10']; ?></p>
 			</div>
-<?php
-    echo isItatian("YybZkexX6ugge32YDsx8");
-?>
 			<div id="container">
 		    	<div class="buddy" style="display: block;">
 		    		<div class="avatar" >
@@ -54,11 +55,11 @@
 							<table>
 								<tr>
 									<td><a href="../desktop/page_2_map.php" data-mini="true" data-theme="d" data-role="button"><?php echo $lang['page_menu_5']; ?></a></td>
-									<td><a href="../desktop/page_2_hotels.php" data-mini="true" data-theme="d" data-role="button"><?php echo $lang['page_menu_3']; ?></a></td>
+									<td><a href="../desktop/page_2_hotels.php" style="visibility: <?php echo isItatian($_COOKIE['invitee']); ?>;" data-mini="true" data-theme="d" data-role="button"><?php echo $lang['page_menu_3']; ?></a></td>
 								</tr>
 								<tr>
-									<td><a href="../desktop/page_2_transportation.php" data-mini="true" data-theme="d" data-role="button" target="_self"><?php echo $lang['page_menu_4']; ?></a></td>
-									<td><a href="../desktop/page_2_poi.php" data-mini="true" data-theme="d" data-role="button" target="_self"><?php echo $lang['page_menu_8']; ?></a></td>
+									<td><a href="../desktop/page_2_transportation.php" style="visibility: <?php echo isItatian($_COOKIE['invitee']); ?>;"data-mini="true" data-theme="d" data-role="button" target="_self"><?php echo $lang['page_menu_4']; ?></a></td>
+									<td><a href="../desktop/page_2_poi.php" style="visibility: <?php echo isItatian($_COOKIE['invitee']); ?>;"data-mini="true" data-theme="d" data-role="button" target="_self"><?php echo $lang['page_menu_8']; ?></a></td>
 								</tr>
 								<tr>
 									<td><a href="../desktop/page_2_calender.php" data-mini="true" data-theme="d" data-role="button"><?php echo $lang['page_menu_9']; ?></a></td>

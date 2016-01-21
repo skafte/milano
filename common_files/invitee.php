@@ -45,24 +45,4 @@
     $invitees['qvNqLgNx9gGgaPVrgZLh'] = "";
 
     $invitees['DetteErEnTestBruger'] = "Test person";
-
-    function isItatian($inv) {
-        switch ($inv) {
-            case '26nxaAWbzxq7Fux7EM6S':
-            case 'YybZkexX6ugge32YDsx8':
-            case 'WexETHHkDkv2CJVRQEKg':
-            case 'kEBL3gvS8FFgkD9RGAR9':
-            case '4K2DpQ23L2WzgNCcdh7x':
-            case '5kh6sYEHv9psr29UH6dE':
-            case 'FTb3YgbT233zXHhx6XJv':
-            case 'FTb3YgbT233zXHhx6XJv':
-            case 'Su7ARkzpMQwTuRJ3GcjL':
-            case 'T8ZeYM7PJMmKcrzUmT4B':
-            case 'd7dsd5Xghge5aCrPDLeH':
-                return "true";
-            default:
-                return "false";
-        }
-        return $invitees['nZcQkyw6w8YaVBGGLcHv'];
-    }
 ?>

@@ -103,6 +103,7 @@
     $lang['page_2_wishlist_list_4'] = "Blender (that can handle ice cubes and warm fluids)";
     $lang['page_2_wishlist_list_5'] = "Icecream maker machine";
     $lang['page_2_wishlist_list_6'] = "Juicer";
+    $lang['page_2_wishlist_list_7'] = "The Light Clock, <a href='http://www.thelightclock.com/product/the-light-clock/' target='_blank'>link</a>";
 
     $lang['page_2_answer_1'] = "We hope to see you in Milan Saturday the 14th of May, 2016!";
     $lang['page_2_answer_2'] = "Please confirm your presence, at the latest sunday the 21st of February, by filling out the form on the following pages:";
